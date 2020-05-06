@@ -3,8 +3,6 @@
   <head>
     <meta charset="utf-8">
     <title>Goldeneye 007 PRs</title>
-    <!-- I should find a way to change this so that it displays "Goldeneye 007"
-          or "Perfect Dark" -->
   </head>
   <body>
     <form method='post'>
@@ -17,9 +15,6 @@
     <table border=1>
       <tr>
         <th>Stage</th>
-        <!-- Similar to the title above, I need to change "Secret Agent" and
-              "00 Agent" to "Special Agent" and "Perfect Agent", depending
-              on the game. The stage names will need to change, as well. -->
         <th>Agent</th>
         <th>Secret Agent</th>
         <th>00 Agent</th>
@@ -147,8 +142,8 @@
       <tr>
         <th>Totals</th>
         <th>{% if agentHours > 0 %}{{ agentHours }}:{% endif %}{{ "%02d" | format(agentMinutes) }}:{{ "%02d" | format(agentSeconds) }}</th>
-        <th>{% if sagentHours > 0 %}{{ sagentHours }}:{% endif %}{{ "%02d" | format(sagentMinutes) }}:{{ "%02d" | format(sagentSeconds) }}</th>
-        <th>{% if dagentHours > 0 %}{{ dagentHours }}:{% endif %}{{ "%02d" | format(dagentMinutes) }}:{{ "%02d" | format(dagentSeconds) }}</th>
+        <th>{% if sAgentHours > 0 %}{{ sAgentHours }}:{% endif %}{{ "%02d" | format(sAgentMinutes) }}:{{ "%02d" | format(sAgentSeconds) }}</th>
+        <th>{% if dAgentHours > 0 %}{{ dAgentHours }}:{% endif %}{{ "%02d" | format(dAgentMinutes) }}:{{ "%02d" | format(dAgentSeconds) }}</th>
       </tr>
     </table>
     <h2>Total time: {{ totalHours }}:{{ "%02d" | format(totalMinutes) }}:{{ "%02d" | format(totalSeconds) }}</h2>

@@ -47,8 +47,7 @@ def init_db():
     with get_db() as con:
         # begin a transaction
         with con.cursor() as cur:
-            # use the file's text to execute the SQL queries within
-            # Later: add video_link and comments columns
+            # Insert data from CSVs into database
             cur.execute("""DROP TABLE IF EXISTS ge_pr_history""")
             cur.execute("""CREATE TABLE ge_pr_history(
                 id bigint,

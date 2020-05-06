@@ -2,7 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>Perfect Dark PRs</title>
   </head>
   <body>
     <form method='post'>
@@ -15,125 +15,131 @@
       <tr>
         <th>Stage</th>
         <th>Agent</th>
-        <th>Secret Agent</th>
-        <th>00 Agent</th>
+        <th>Special Agent</th>
+        <th>Perfect Agent</th>
       </tr>
       <tr>
-        <td>Dam</td>
-        <td></td>
-        <td></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td>Facility</td>
+        <td>Defection</td>
         <td></td>
         <td></td>
         <td></td>
       </tr>
       <tr>
-        <td>Runway</td>
+        <td>Investigation</td>
         <td></td>
         <td></td>
         <td></td>
       </tr>
       <tr>
-        <td>Surface 1</td>
+        <td>Extraction</td>
         <td></td>
         <td></td>
         <td></td>
       </tr>
       <tr>
-        <td>Bunker 1</td>
+        <td>Villa</td>
         <td></td>
         <td></td>
         <td></td>
       </tr>
       <tr>
-        <td>Silo</td>
+        <td>Chicago</td>
         <td></td>
         <td></td>
         <td></td>
       </tr>
       <tr>
-        <td>Frigate</td>
+        <td>G5</td>
         <td></td>
         <td></td>
         <td></td>
       </tr>
       <tr>
-        <td>Surface 2</td>
+        <td>Infiltration</td>
         <td></td>
         <td></td>
         <td></td>
       </tr>
       <tr>
-        <td>Bunker 2</td>
+        <td>Rescue</td>
         <td></td>
         <td></td>
         <td></td>
       </tr>
       <tr>
-        <td>Statue</td>
+        <td>Escape</td>
         <td></td>
         <td></td>
         <td></td>
       </tr>
       <tr>
-        <td>Archives</td>
+        <td>Air Base</td>
         <td></td>
         <td></td>
         <td></td>
       </tr>
       <tr>
-        <td>Streets</td>
+        <td>Air Force One</td>
         <td></td>
         <td></td>
         <td></td>
       </tr>
       <tr>
-        <td>Depot</td>
+        <td>Crash Site</td>
         <td></td>
         <td></td>
         <td></td>
       </tr>
       <tr>
-        <td>Train</td>
+        <td>Pelagic II</td>
         <td></td>
         <td></td>
         <td></td>
       </tr>
       <tr>
-        <td>Jungle</td>
+        <td>Deep Sea</td>
         <td></td>
         <td></td>
         <td></td>
       </tr>
       <tr>
-        <td>Control</td>
+        <td>Carrington Institute</td>
         <td></td>
         <td></td>
         <td></td>
       </tr>
       <tr>
-        <td>Caverns</td>
+        <td>Attack Ship</td>
         <td></td>
         <td></td>
         <td></td>
       </tr>
       <tr>
-        <td>Cradle</td>
+        <td>Skedar Ruins</td>
         <td></td>
         <td></td>
         <td></td>
       </tr>
       <tr>
-        <td>Aztec</td>
+        <td>Mr. Blonde's Revenge</td>
         <td></td>
         <td></td>
         <td></td>
       </tr>
       <tr>
-        <td>Egypt</td>
+        <td>Maian SOS</td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>WAR!</td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Duel</td>
         <td></td>
         <td></td>
         <td></td>
@@ -151,5 +157,15 @@
         width: 100px;
       }
     </style>
+    <script>
+        let x = document.getElementsByTagName("td")
+        console.log(x)
+        for (let cell=0; cell < 80; cell++) {
+          if (x[cell].innerText === '20:00') {
+            x[cell].style.backgroundColor = "grey";
+            x[cell].innerText = 'N/A'
+          }
+        }
+    </script>
   </body>
 </html>
