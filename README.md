@@ -5,8 +5,10 @@ This came about from an idea I had where I was curious to see what my PRs (perso
 
 As of now, this project is Mac-only. As I progress, I do plan to work on a version for Windows users, as well.
 
-## Installation instructions (you must have python 3 installed):
-Clone this repo, and then run the following commands in the terminal:
+## Installation instructions:
+First, make sure you have python 3 installed.
+
+Next, clone this repo, and then run the following commands in the terminal:
 ```sh
 $ cd Elite-Calendar-View
 $ python3 -m venv venv
