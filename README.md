@@ -1,6 +1,8 @@
 # Elite-Calendar-View
 This allows someone to view what my PRs are on any given day for the N64 games GoldenEye 007 and Perfect Dark, modeled after my times page on https://rankings.the-elite.net/~TheIrishBub.
 
+This came about from an idea I had where I was curious to see what my PRs (personal records) were on any given day. As far as I'm aware, the rankings page linked above does not have this feature, so I decided to make one myself!
+
 As of now, this project is Mac-only. As I progress, I do plan to work on a version for Windows users, as well.
 
 ## Installation instructions (you must have python 3 installed):
