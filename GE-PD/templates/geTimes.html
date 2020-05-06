@@ -141,12 +141,12 @@
       </tr>
       <tr>
         <th>Totals</th>
-        <th>{% if agentHours > 0 %}{{ agentHours }}:{% endif %}{{ "%02d" | format(agentMinutes) }}:{{ "%02d" | format(agentSeconds) }}</th>
-        <th>{% if sAgentHours > 0 %}{{ sAgentHours }}:{% endif %}{{ "%02d" | format(sAgentMinutes) }}:{{ "%02d" | format(sAgentSeconds) }}</th>
-        <th>{% if dAgentHours > 0 %}{{ dAgentHours }}:{% endif %}{{ "%02d" | format(dAgentMinutes) }}:{{ "%02d" | format(dAgentSeconds) }}</th>
+        <th>{% if calc[0] > 0 %}{{ calc[0] }}:{% endif %}{{ "%02d" | format(calc[1]) }}:{{ "%02d" | format(calc[2]) }}</th>
+        <th>{% if calc[3] > 0 %}{{ calc[3] }}:{% endif %}{{ "%02d" | format(calc[4]) }}:{{ "%02d" | format(calc[5]) }}</th>
+        <th>{% if calc[6] > 0 %}{{ calc[6] }}:{% endif %}{{ "%02d" | format(calc[7]) }}:{{ "%02d" | format(calc[8]) }}</th>
       </tr>
     </table>
-    <h2>Total time: {{ totalHours }}:{{ "%02d" | format(totalMinutes) }}:{{ "%02d" | format(totalSeconds) }}</h2>
+    <h2>Total time: {{ calc[9] }}:{{ "%02d" | format(calc[10]) }}:{{ "%02d" | format(calc[11]) }}</h2>
     <style>
       td, th {
         text-align: center;

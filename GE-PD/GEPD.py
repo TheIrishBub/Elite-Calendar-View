@@ -6,7 +6,7 @@ from datetime import date, datetime, time
 bp = Blueprint("GEPD", __name__)
 
 @bp.route('/', methods=('GET', 'POST'))
-def calendar():
+def ge_calendar():
     dateOne = date.today()
     with db.get_db() as con:
         with con.cursor() as cur:
@@ -47,9 +47,5 @@ def calendar():
 
     calc = time_calc.ge_time_calculation(times)
     print(calc)
-    return render_template('geTimes.html', times=times,
-            agentSeconds=calc[2], agentMinutes=calc[1], agentHours=calc[0],
-            sAgentSeconds=calc[5], sAgentMinutes=calc[4], sAgentHours=calc[3],
-            dAgentSeconds=calc[8], dAgentMinutes=calc[7], dAgentHours=calc[6],
-            totalSeconds=calc[11], totalMinutes=calc[10], totalHours=calc[9],
-            dateOne=dateOne)
+    # Maybe I could do calc=calc ?
+    return render_template('geTimes.html', times=times, calc=calc, dateOne=dateOne)
