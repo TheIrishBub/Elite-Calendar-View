@@ -6,6 +6,10 @@ from datetime import date, datetime, time
 bp = Blueprint("GEPD", __name__)
 
 @bp.route('/', methods=('GET', 'POST'))
+def home_page():
+    return render_template('index.html')
+
+@bp.route('/geTimes/')
 def ge_calendar():
     dateOne = date.today()
     with db.get_db() as con:
