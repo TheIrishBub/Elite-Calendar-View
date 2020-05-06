@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Goldeneye 007 PRs</title>
+    <!-- I should find a way to change this so that it displays "Goldeneye 007"
+          or "Perfect Dark" -->
+  </head>
+  <body>
+    <form method='post'>
+      <label for="date">Date
+        <input type="date" name="date" />
+      </label>
+      <input type="submit" value="Submit" />
+    </form>
+    <h2>Showing times page for {{ dateOne }}:</h2>
+    <table border=1>
+      <tr>
+        <th>Stage</th>
+        <!-- Similar to the title above, I need to change "Secret Agent" and
+              "00 Agent" to "Special Agent" and "Perfect Agent", depending
+              on the game. The stage names will need to change, as well. -->
+        <th>Agent</th>
+        <th>Secret Agent</th>
+        <th>00 Agent</th>
+      </tr>
+      <tr>
+        <td>Dam</td>
+        <td><a href="#">{{ times[22].minute }}:{{ "%02d" | format(times[22].second) }}</a></td>
+        <td>{{ times[23].minute }}:{{ "%02d" | format(times[23].second) }}</td>
+        <td>{{ times[21].minute }}:{{ "%02d" | format(times[21].second) }}</td>
+      </tr>
+      <tr>
+        <td>Facility</td>
+        <td>{{ times[31].minute }}:{{ "%02d" | format(times[31].second) }}</td>
+        <td>{{ times[32].minute }}:{{ "%02d" | format(times[32].second) }}</td>
+        <td>{{ times[30].minute }}:{{ "%02d" | format(times[30].second) }}</td>
+      </tr>
+      <tr>
+        <td>Runway</td>
+        <td>{{ times[40].minute }}:{{ "%02d" | format(times[40].second) }}</td>
+        <td>{{ times[41].minute }}:{{ "%02d" | format(times[41].second) }}</td>
+        <td>{{ times[39].minute }}:{{ "%02d" | format(times[39].second) }}</td>
+      </tr>
+      <tr>
+        <td>Surface 1</td>
+        <td>{{ times[52].minute }}:{{ "%02d" | format(times[52].second) }}</td>
+        <td>{{ times[53].minute }}:{{ "%02d" | format(times[53].second) }}</td>
+        <td>{{ times[51].minute }}:{{ "%02d" | format(times[51].second) }}</td>
+      </tr>
+      <tr>
+        <td>Bunker 1</td>
+        <td>{{ times[7].minute }}:{{ "%02d" | format(times[7].second) }}</td>
+        <td>{{ times[8].minute }}:{{ "%02d" | format(times[8].second) }}</td>
+        <td>{{ times[6].minute }}:{{ "%02d" | format(times[6].second) }}</td>
+      </tr>
+      <tr>
+        <td>Silo</td>
+        <td>{{ times[43].minute }}:{{ "%02d" | format(times[43].second) }}</td>
+        <td>{{ times[44].minute }}:{{ "%02d" | format(times[44].second) }}</td>
+        <td>{{ times[42].minute }}:{{ "%02d" | format(times[42].second) }}</td>
+      </tr>
+      <tr>
+        <td>Frigate</td>
+        <td>{{ times[34].minute }}:{{ "%02d" | format(times[34].second) }}</td>
+        <td>{{ times[35].minute }}:{{ "%02d" | format(times[35].second) }}</td>
+        <td>{{ times[33].minute }}:{{ "%02d" | format(times[33].second) }}</td>
+      </tr>
+      <tr>
+        <td>Surface 2</td>
+        <td>{{ times[55].minute }}:{{ "%02d" | format(times[55].second) }}</td>
+        <td>{{ times[56].minute }}:{{ "%02d" | format(times[56].second) }}</td>
+        <td>{{ times[54].minute }}:{{ "%02d" | format(times[54].second) }}</td>
+      </tr>
+      <tr>
+        <td>Bunker 2</td>
+        <td>{{ times[10].minute }}:{{ "%02d" | format(times[10].second) }}</td>
+        <td>{{ times[11].minute }}:{{ "%02d" | format(times[11].second) }}</td>
+        <td>{{ times[9].minute }}:{{ "%02d" | format(times[9].second) }}</td>
+      </tr>
+      <tr>
+        <td>Statue</td>
+        <td>{{ times[46].minute }}:{{ "%02d" | format(times[46].second) }}</td>
+        <td>{{ times[47].minute }}:{{ "%02d" | format(times[47].second) }}</td>
+        <td>{{ times[45].minute }}:{{ "%02d" | format(times[45].second) }}</td>
+      </tr>
+      <tr>
+        <td>Archives</td>
+        <td>{{ times[1].minute }}:{{ "%02d" | format(times[1].second) }}</td>
+        <td>{{ times[2].minute }}:{{ "%02d" | format(times[2].second) }}</td>
+        <td>{{ times[0].minute }}:{{ "%02d" | format(times[0].second) }}</td>
+      </tr>
+      <tr>
+        <td>Streets</td>
+        <td>{{ times[49].minute }}:{{ "%02d" | format(times[49].second) }}</td>
+        <td>{{ times[50].minute }}:{{ "%02d" | format(times[50].second) }}</td>
+        <td>{{ times[48].minute }}:{{ "%02d" | format(times[48].second) }}</td>
+      </tr>
+      <tr>
+        <td>Depot</td>
+        <td>{{ times[25].minute }}:{{ "%02d" | format(times[25].second) }}</td>
+        <td>{{ times[26].minute }}:{{ "%02d" | format(times[26].second) }}</td>
+        <td>{{ times[24].minute }}:{{ "%02d" | format(times[24].second) }}</td>
+      </tr>
+      <tr>
+        <td>Train</td>
+        <td>{{ times[58].minute }}:{{ "%02d" | format(times[58].second) }}</td>
+        <td>{{ times[59].minute }}:{{ "%02d" | format(times[59].second) }}</td>
+        <td>{{ times[57].minute }}:{{ "%02d" | format(times[57].second) }}</td>
+      </tr>
+      <tr>
+        <td>Jungle</td>
+        <td>{{ times[37].minute }}:{{ "%02d" | format(times[37].second) }}</td>
+        <td>{{ times[38].minute }}:{{ "%02d" | format(times[38].second) }}</td>
+        <td>{{ times[36].minute }}:{{ "%02d" | format(times[36].second) }}</td>
+      </tr>
+      <tr>
+        <td>Control</td>
+        <td>{{ times[16].minute }}:{{ "%02d" | format(times[16].second) }}</td>
+        <td>{{ times[17].minute }}:{{ "%02d" | format(times[17].second) }}</td>
+        <td>{{ times[15].minute }}:{{ "%02d" | format(times[15].second) }}</td>
+      </tr>
+      <tr>
+        <td>Caverns</td>
+        <td>{{ times[13].minute }}:{{ "%02d" | format(times[13].second) }}</td>
+        <td>{{ times[14].minute }}:{{ "%02d" | format(times[14].second) }}</td>
+        <td>{{ times[12].minute }}:{{ "%02d" | format(times[12].second) }}</td>
+      </tr>
+      <tr>
+        <td>Cradle</td>
+        <td>{{ times[19].minute }}:{{ "%02d" | format(times[19].second) }}</td>
+        <td>{{ times[20].minute }}:{{ "%02d" | format(times[20].second) }}</td>
+        <td>{{ times[18].minute }}:{{ "%02d" | format(times[18].second) }}</td>
+      </tr>
+      <tr>
+        <td>Aztec</td>
+        <td>{{ times[4].minute }}:{{ "%02d" | format(times[4].second) }}</td>
+        <td>{{ times[5].minute }}:{{ "%02d" | format(times[5].second) }}</td>
+        <td>{{ times[3].minute }}:{{ "%02d" | format(times[3].second) }}</td>
+      </tr>
+      <tr>
+        <td>Egypt</td>
+        <td>{{ times[28].minute }}:{{ "%02d" | format(times[28].second) }}</td>
+        <td>{{ times[29].minute }}:{{ "%02d" | format(times[29].second) }}</td>
+        <td>{{ times[27].minute }}:{{ "%02d" | format(times[27].second) }}</td>
+      </tr>
+      <tr>
+        <th>Totals</th>
+        <th>{% if agentHours > 0 %}{{ agentHours }}:{% endif %}{{ "%02d" | format(agentMinutes) }}:{{ "%02d" | format(agentSeconds) }}</th>
+        <th>{% if sagentHours > 0 %}{{ sagentHours }}:{% endif %}{{ "%02d" | format(sagentMinutes) }}:{{ "%02d" | format(sagentSeconds) }}</th>
+        <th>{% if dagentHours > 0 %}{{ dagentHours }}:{% endif %}{{ "%02d" | format(dagentMinutes) }}:{{ "%02d" | format(dagentSeconds) }}</th>
+      </tr>
+    </table>
+    <h2>Total time: {{ totalHours }}:{{ "%02d" | format(totalMinutes) }}:{{ "%02d" | format(totalSeconds) }}</h2>
+    <style>
+      td, th {
+        text-align: center;
+        width: 100px;
+      }
+    </style>
+    <script>
+        let x = document.getElementsByTagName("td")
+        console.log(x)
+        for (let cell=0; cell < 80; cell++) {
+          if (x[cell].innerText === '20:00') {
+            x[cell].style.backgroundColor = "grey";
+            x[cell].innerText = 'N/A'
+          }
+        }
+    </script>
+  </body>
+</html>

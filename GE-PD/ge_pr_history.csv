@@ -1,0 +1,303 @@
+﻿id,date_achieved,stage,difficulty,stage_time,system
+0,1/1/0001,Dam,Agent,0:20:00,
+0,1/1/0001,Dam,Secret Agent,0:20:00,
+0,1/1/0001,Dam,00 Agent,0:20:00,
+0,1/1/0001,Facility,Agent,0:20:00,
+0,1/1/0001,Facility,Secret Agent,0:20:00,
+0,1/1/0001,Facility,00 Agent,0:20:00,
+0,1/1/0001,Runway,Agent,0:20:00,
+0,1/1/0001,Runway,Secret Agent,0:20:00,
+0,1/1/0001,Runway,00 Agent,0:20:00,
+0,1/1/0001,Surface 1,Agent,0:20:00,
+0,1/1/0001,Surface 1,Secret Agent,0:20:00,
+0,1/1/0001,Surface 1,00 Agent,0:20:00,
+0,1/1/0001,Bunker 1,Agent,0:20:00,
+0,1/1/0001,Bunker 1,Secret Agent,0:20:00,
+0,1/1/0001,Bunker 1,00 Agent,0:20:00,
+0,1/1/0001,Silo,Agent,0:20:00,
+0,1/1/0001,Silo,Secret Agent,0:20:00,
+0,1/1/0001,Silo,00 Agent,0:20:00,
+0,1/1/0001,Frigate,Agent,0:20:00,
+0,1/1/0001,Frigate,Secret Agent,0:20:00,
+0,1/1/0001,Frigate,00 Agent,0:20:00,
+0,1/1/0001,Surface 2,Agent,0:20:00,
+0,1/1/0001,Surface 2,Secret Agent,0:20:00,
+0,1/1/0001,Surface 2,00 Agent,0:20:00,
+0,1/1/0001,Bunker 2,Agent,0:20:00,
+0,1/1/0001,Bunker 2,Secret Agent,0:20:00,
+0,1/1/0001,Bunker 2,00 Agent,0:20:00,
+0,1/1/0001,Statue,Agent,0:20:00,
+0,1/1/0001,Statue,Secret Agent,0:20:00,
+0,1/1/0001,Statue,00 Agent,0:20:00,
+0,1/1/0001,Archives,Agent,0:20:00,
+0,1/1/0001,Archives,Secret Agent,0:20:00,
+0,1/1/0001,Archives,00 Agent,0:20:00,
+0,1/1/0001,Streets,Agent,0:20:00,
+0,1/1/0001,Streets,Secret Agent,0:20:00,
+0,1/1/0001,Streets,00 Agent,0:20:00,
+0,1/1/0001,Depot,Agent,0:20:00,
+0,1/1/0001,Depot,Secret Agent,0:20:00,
+0,1/1/0001,Depot,00 Agent,0:20:00,
+0,1/1/0001,Train,Agent,0:20:00,
+0,1/1/0001,Train,Secret Agent,0:20:00,
+0,1/1/0001,Train,00 Agent,0:20:00,
+0,1/1/0001,Jungle,Agent,0:20:00,
+0,1/1/0001,Jungle,Secret Agent,0:20:00,
+0,1/1/0001,Jungle,00 Agent,0:20:00,
+0,1/1/0001,Control,Agent,0:20:00,
+0,1/1/0001,Control,Secret Agent,0:20:00,
+0,1/1/0001,Control,00 Agent,0:20:00,
+0,1/1/0001,Caverns,Agent,0:20:00,
+0,1/1/0001,Caverns,Secret Agent,0:20:00,
+0,1/1/0001,Caverns,00 Agent,0:20:00,
+0,1/1/0001,Cradle,Agent,0:20:00,
+0,1/1/0001,Cradle,Secret Agent,0:20:00,
+0,1/1/0001,Cradle,00 Agent,0:20:00,
+0,1/1/0001,Aztec,Agent,0:20:00,
+0,1/1/0001,Aztec,Secret Agent,0:20:00,
+0,1/1/0001,Aztec,00 Agent,0:20:00,
+0,1/1/0001,Egypt,Agent,0:20:00,
+0,1/1/0001,Egypt,Secret Agent,0:20:00,
+0,1/1/0001,Egypt,00 Agent,0:20:00,
+1,11/14/18,Runway,Agent,0:00:49,NTSC
+2,11/14/18,Surface 1,Agent,0:01:57,NTSC
+3,11/14/18,Bunker 1,Agent,0:01:58,NTSC
+4,11/19/18,Dam,Agent,0:00:57,NTSC
+5,11/21/18,Facility,Agent,0:05:03,NTSC
+6,11/21/18,Runway,Agent,0:00:31,NTSC
+7,11/21/18,Facility,Agent,0:02:12,NTSC
+8,11/21/18,Silo,Agent,0:08:52,NTSC
+9,11/21/18,Frigate,Agent,0:02:29,NTSC
+10,11/21/18,Surface 2,Agent,0:06:28,NTSC
+11,11/21/18,Bunker 2,Agent,0:02:01,NTSC
+12,3/8/19,Runway,Agent,0:00:30,NTSC
+13,3/10/19,Runway,Agent,0:00:29,NTSC
+14,3/10/19,Runway,Agent,0:00:26,NTSC
+15,3/10/19,Statue,Agent,0:04:37,NTSC
+16,3/10/19,Archives,Agent,0:01:02,NTSC
+17,3/10/19,Streets,Agent,0:01:54,NTSC
+18,3/10/19,Depot,Agent,0:01:05,NTSC
+19,3/10/19,Train,Agent,0:04:41,NTSC
+20,6/6/19,Dam,Agent,0:00:56,NTSC
+21,8/27/19,Jungle,Agent,0:06:06,NTSC
+22,8/27/19,Dam,Secret Agent,0:02:03,NTSC
+23,8/27/19,Surface 1,Agent,0:01:29,NTSC
+24,8/27/19,Surface 1,Agent,0:01:25,NTSC
+25,8/27/19,Surface 1,Agent,0:01:21,NTSC
+26,8/27/19,Streets,Agent,0:01:26,NTSC
+27,8/27/19,Surface 1,Agent,0:01:20,NTSC
+28,8/27/19,Streets,Agent,0:01:23,NTSC
+29,8/27/19,Streets,Agent,0:01:20,NTSC
+30,8/27/19,Streets,Agent,0:01:19,NTSC
+31,8/27/19,Surface 1,Agent,0:01:17,NTSC
+32,8/27/19,Surface 1,Agent,0:01:14,NTSC
+33,8/27/19,Dam,Secret Agent,0:01:53,NTSC
+34,8/27/19,Dam,Secret Agent,0:01:44,NTSC
+35,8/27/19,Dam,Secret Agent,0:01:43,NTSC
+36,8/28/19,Facility,Agent,0:01:33,NTSC
+37,8/29/19,Streets,Agent,0:01:18,NTSC
+38,8/31/19,Control,Agent,0:14:14,NTSC
+39,8/31/19,Caverns,Agent,0:10:27,NTSC
+40,8/31/19,Cradle,Agent,0:03:28,NTSC
+41,8/31/19,Silo,Agent,0:05:32,NTSC
+42,9/5/19,Streets,Agent,0:01:17,NTSC
+43,10/25/19,Cradle,Secret Agent,0:01:53,NTSC
+44,10/26/19,Archives,Agent,0:00:46,NTSC
+45,10/26/19,Archives,Agent,0:00:36,NTSC
+46,10/26/19,Caverns,Agent,0:01:42,NTSC
+47,10/26/19,Control,Agent,0:08:54,NTSC
+48,10/27/19,Facility,Secret Agent,0:12:52,NTSC
+49,10/27/19,Runway,Secret Agent,0:01:20,NTSC
+50,10/27/19,Surface 1,Secret Agent,0:09:24,NTSC
+51,10/27/19,Runway,Secret Agent,0:01:10,NTSC
+52,10/27/19,Facility,Secret Agent,0:07:52,NTSC
+53,10/27/19,Surface 1,Secret Agent,0:06:55,NTSC
+54,10/27/19,Surface 1,Secret Agent,0:04:17,NTSC
+55,10/27/19,Surface 1,Secret Agent,0:02:38,NTSC
+56,10/27/19,Dam,Secret Agent,0:01:36,NTSC
+57,10/27/19,Facility,Secret Agent,0:04:58,NTSC
+58,10/27/19,Surface 1,Secret Agent,0:02:25,NTSC
+59,10/27/19,Facility,Secret Agent,0:04:35,NTSC
+60,10/27/19,Bunker 1,Agent,0:00:53,NTSC
+61,10/27/19,Silo,Agent,0:05:10,NTSC
+62,10/27/19,Frigate,Agent,0:02:23,NTSC
+63,10/27/19,Surface 2,Agent,0:04:54,NTSC
+64,10/27/19,Bunker 2,Agent,0:01:49,NTSC
+65,10/27/19,Statue,Agent,0:04:06,NTSC
+66,10/27/19,Depot,Agent,0:01:03,NTSC
+67,10/27/19,Jungle,Agent,0:04:22,NTSC
+68,10/27/19,Control,Agent,0:08:32,NTSC
+69,10/27/19,Cradle,Agent,0:01:41,NTSC
+70,10/27/19,Runway,Secret Agent,0:00:48,NTSC
+71,11/2/19,Silo,Agent,0:04:52,NTSC
+72,11/2/19,Frigate,Agent,0:01:00,NTSC
+73,11/2/19,Surface 2,Agent,0:02:59,NTSC
+74,11/2/19,Bunker 2,Agent,0:01:47,NTSC
+75,11/2/19,Statue,Agent,0:03:48,NTSC
+76,11/2/19,Caverns,Agent,0:01:34,NTSC
+77,11/2/19,Cradle,Agent,0:01:20,NTSC
+78,11/2/19,Bunker 1,Agent,0:00:40,NTSC
+79,11/2/19,Cradle,Secret Agent,0:01:36,NTSC
+80,11/17/19,Dam,00 Agent,0:06:41,NTSC
+81,11/25/19,Cradle,Secret Agent,0:01:09,NTSC
+82,11/25/19,Cradle,00 Agent,0:01:32,NTSC
+83,11/25/19,Streets,Agent,0:01:16,NTSC
+84,11/25/19,Cradle,Agent,0:01:12,NTSC
+85,11/25/19,Cradle,Agent,0:00:58,NTSC
+86,11/27/19,Facility,Agent,0:01:23,NTSC
+87,11/27/19,Facility,Agent,0:01:14,NTSC
+88,12/3/19,Statue,Agent,0:02:55,NTSC
+89,12/3/19,Statue,Secret Agent,0:03:12,NTSC
+90,12/3/19,Statue,00 Agent,0:02:52,NTSC
+91,12/3/19,Control,Agent,0:06:31,NTSC
+92,12/3/19,Silo,Agent,0:03:00,NTSC
+93,12/3/19,Control,Agent,0:05:29,NTSC
+94,12/3/19,Jungle,Agent,0:03:13,NTSC
+95,12/3/19,Streets,Agent,0:01:15,NTSC
+96,12/6/19,Surface 1,00 Agent,0:02:41,NTSC
+97,12/6/19,Runway,00 Agent,0:01:33,NTSC
+98,12/6/19,Bunker 1,Secret Agent,0:02:34,NTSC
+99,12/6/19,Streets,Secret Agent,0:02:44,NTSC
+100,12/6/19,Streets,00 Agent,0:02:13,NTSC
+101,12/6/19,Facility,00 Agent,0:09:10,NTSC
+102,12/6/19,Silo,Secret Agent,0:05:10,NTSC
+103,12/6/19,Frigate,Secret Agent,0:05:42,NTSC
+104,12/13/19,Bunker 1,Agent,0:00:36,NTSC-J
+105,12/13/19,Frigate,Agent,0:00:57,NTSC-J
+106,12/13/19,Bunker 2,Agent,0:01:04,NTSC-J
+107,12/13/19,Statue,Agent,0:02:46,NTSC-J
+108,12/13/19,Train,Agent,0:04:23,NTSC-J
+109,12/14/19,Surface 2,Agent,0:01:12,NTSC-J
+110,12/14/19,Bunker 2,Agent,0:01:02,NTSC-J
+111,12/14/19,Train,Agent,0:02:22,NTSC-J
+112,12/14/19,Bunker 1,Agent,0:00:31,NTSC-J
+113,12/14/19,Bunker 1,Agent,0:00:30,NTSC-J
+114,12/14/19,Frigate,Agent,0:00:46,NTSC-J
+115,12/14/19,Statue,Agent,0:02:43,NTSC-J
+116,12/14/19,Statue,Secret Agent,0:03:11,NTSC-J
+117,12/15/19,Facility,00 Agent,0:07:25,NTSC-J
+118,12/15/19,Runway,00 Agent,0:01:14,NTSC-J
+119,12/15/19,Bunker 1,00 Agent,0:05:27,NTSC-J
+120,12/15/19,Silo,00 Agent,0:07:11,NTSC-J
+121,12/15/19,Frigate,00 Agent,0:07:41,NTSC-J
+122,12/15/19,Surface 2,00 Agent,0:06:01,NTSC-J
+123,12/15/19,Bunker 2,00 Agent,0:23:37,NTSC-J
+124,12/15/19,Archives,00 Agent,0:08:38,NTSC-J
+125,12/15/19,Statue,00 Agent,0:02:40,NTSC-J
+126,12/15/19,Streets,00 Agent,0:02:05,NTSC-J
+127,12/15/19,Depot,00 Agent,0:04:14,NTSC-J
+128,12/16/19,Train,00 Agent,0:07:15,NTSC-J
+129,12/16/19,Jungle,00 Agent,0:08:12,NTSC-J
+130,12/16/19,Control,00 Agent,0:12:16,NTSC-J
+131,12/16/19,Caverns,00 Agent,0:14:32,NTSC-J
+132,12/16/19,Aztec,Agent,0:06:20,NTSC-J
+133,12/16/19,Aztec,Secret Agent,0:11:12,NTSC-J
+134,12/17/19,Aztec,Agent,0:04:45,NTSC-J
+135,12/17/19,Aztec,Secret Agent,0:04:49,NTSC-J
+136,12/17/19,Aztec,00 Agent,0:12:20,NTSC-J
+137,12/17/19,Egypt,00 Agent,0:01:24,NTSC-J
+138,12/17/19,Egypt,Secret Agent,0:01:17,NTSC-J
+139,12/17/19,Egypt,Agent,0:01:10,NTSC-J
+140,12/18/19,Bunker 2,Secret Agent,0:11:46,NTSC-J
+141,12/18/19,Statue,Secret Agent,0:02:58,NTSC-J
+142,12/18/19,Archives,Secret Agent,0:02:12,NTSC-J
+143,12/18/19,Train,Secret Agent,0:06:47,NTSC-J
+144,12/18/19,Jungle,Secret Agent,0:06:31,NTSC-J
+145,12/18/19,Control,Secret Agent,0:09:59,NTSC-J
+146,12/18/19,Caverns,Secret Agent,0:09:48,NTSC-J
+147,12/18/19,Surface 2,Secret Agent,0:02:04,NTSC-J
+148,12/18/19,Bunker 2,00 Agent,0:20:51,NTSC-J
+149,12/18/19,Bunker 2,00 Agent,0:11:08,NTSC-J
+150,12/18/19,Depot,Secret Agent,0:02:01,NTSC-J
+151,12/19/19,Facility,00 Agent,0:04:07,NTSC-J
+152,12/19/19,Runway,00 Agent,0:01:11,NTSC-J
+153,12/19/19,Bunker 1,00 Agent,0:02:28,NTSC-J
+154,12/19/19,Silo,00 Agent,0:04:17,NTSC-J
+155,12/19/19,Frigate,00 Agent,0:04:13,NTSC-J
+156,12/19/19,Surface 2,00 Agent,0:03:45,NTSC-J
+157,12/19/19,Depot,00 Agent,0:03:27,NTSC-J
+158,12/19/19,Archives,00 Agent,0:01:35,NTSC-J
+159,12/19/19,Statue,00 Agent,0:02:39,NTSC-J
+160,12/31/19,Bunker 1,Agent,0:00:25,NTSC-J
+161,1/6/20,Silo,Secret Agent,0:03:51,NTSC-J
+162,1/6/20,Statue,Secret Agent,0:02:41,NTSC-J
+163,1/6/20,Streets,Secret Agent,0:02:02,NTSC-J
+164,1/6/20,Frigate,Agent,0:00:42,NTSC-J
+165,1/6/20,Frigate,Agent,0:00:35,NTSC
+166,1/6/20,Surface 2,Agent,0:01:00,NTSC
+167,1/6/20,Surface 2,Agent,0:00:59,NTSC-J
+168,1/6/20,Bunker 2,Agent,0:00:57,NTSC-J
+169,1/6/20,Bunker 2,Agent,0:00:46,NTSC-J
+170,1/6/20,Bunker 2,Agent,0:00:41,NTSC-J
+171,1/6/20,Bunker 2,Agent,0:00:39,NTSC-J
+172,1/6/20,Bunker 1,Agent,0:00:22,NTSC-J
+173,1/6/20,Depot,Agent,0:00:33,NTSC-J
+174,1/6/20,Silo,Agent,0:02:17,NTSC-J
+175,2/14/20,Streets,00 Agent,0:02:04,NTSC
+176,3/6/20,Runway,Agent,0:00:24,NTSC
+177,3/29/20,Dam,Agent,0:00:55,NTSC-J
+178,3/29/20,Archives,Agent,0:00:27,NTSC-J
+179,3/29/20,Archives,Agent,0:00:25,NTSC-J
+180,3/29/20,Bunker 1,Agent,0:00:20,NTSC-J
+181,3/29/20,Caverns,Agent,0:01:15,NTSC-J
+182,3/29/20,Caverns,Agent,0:01:12,NTSC-J
+183,3/29/20,Caverns,Agent,0:01:11,NTSC-J
+184,3/29/20,Caverns,Agent,0:01:10,NTSC-J
+185,3/29/20,Depot,Agent,0:00:32,NTSC-J
+186,3/29/20,Depot,Agent,0:00:30,NTSC-J
+187,3/29/20,Depot,Agent,0:00:29,NTSC-J
+188,3/29/20,Silo,Agent,0:01:40,NTSC-J
+189,3/29/20,Runway,Secret Agent,0:00:25,NTSC-J
+190,3/30/20,Facility,Agent,0:01:11,NTSC-J
+191,3/30/20,Facility,Agent,0:01:07,NTSC-J
+192,3/30/20,Facility,Agent,0:01:06,NTSC-J
+193,3/30/20,Facility,Agent,0:01:04,NTSC-J
+194,3/31/20,Archives,Agent,0:00:24,NTSC-J
+195,3/31/20,Facility,Secret Agent,0:01:26,NTSC-J
+196,3/31/20,Facility,00 Agent,0:01:26,NTSC-J
+197,3/31/20,Bunker 1,Secret Agent,0:01:06,NTSC-J
+198,4/2/20,Dam,Secret Agent,0:01:33,NTSC-J
+199,4/2/20,Archives,00 Agent,0:01:20,NTSC-J
+200,4/2/20,Archives,Secret Agent,0:01:20,NTSC-J
+201,4/3/20,Dam,00 Agent,0:02:48,NTSC-J
+202,4/3/20,Bunker 2,Secret Agent,0:05:49,NTSC-J
+203,4/3/20,Bunker 2,00 Agent,0:07:15,NTSC-J
+204,4/3/20,Silo,Secret Agent,0:03:02,NTSC-J
+205,4/3/20,Silo,Secret Agent,0:02:41,NTSC-J
+206,4/8/20,Frigate,Secret Agent,0:02:43,NTSC-J
+207,4/8/20,Control,Agent,0:05:01,NTSC-J
+208,4/9/20,Control,Secret Agent,0:06:51,NTSC-J
+209,4/11/20,Aztec,Agent,0:02:42,NTSC-J
+210,4/11/20,Caverns,00 Agent,0:08:55,NTSC-J
+211,4/11/20,Caverns,Secret Agent,0:05:58,NTSC-J
+212,4/11/20,Jungle,Agent,0:02:28,NTSC-J
+213,4/11/20,Surface 1,Secret Agent,0:02:17,NTSC-J
+214,4/11/20,Surface 1,00 Agent,0:02:22,NTSC-J
+215,4/11/20,Control,00 Agent,0:09:02,NTSC-J
+216,4/12/20,Depot,Secret Agent,0:01:34,NTSC-J
+217,4/12/20,Depot,Secret Agent,0:01:29,NTSC-J
+218,4/12/20,Depot,Secret Agent,0:01:15,NTSC-J
+219,4/12/20,Depot,Secret Agent,0:01:10,NTSC-J
+220,4/12/20,Surface 2,Secret Agent,0:01:28,NTSC-J
+221,4/12/20,Bunker 1,Secret Agent,0:01:05,NTSC-J
+222,4/13/20,Surface 1,Secret Agent,0:02:15,NTSC-J
+223,4/13/20,Surface 1,Secret Agent,0:02:11,NTSC-J
+224,4/13/20,Train,00 Agent,0:05:18,NTSC-J
+225,4/18/20,Bunker 2,Agent,0:00:38,NTSC-J
+226,4/18/20,Statue,Agent,0:02:36,NTSC-J
+227,4/18/20,Train,Agent,0:01:55,NTSC-J
+228,4/18/20,Jungle,Agent,0:02:07,NTSC-J
+229,4/18/20,Jungle,Agent,0:02:03,NTSC-J
+230,4/18/20,Cradle,Agent,0:00:53,NTSC-J
+231,4/18/20,Cradle,Agent,0:00:52,NTSC-J
+232,4/19/20,Cradle,Agent,0:00:50,NTSC
+233,4/19/20,Cradle,Agent,0:00:49,NTSC-J
+234,4/19/20,Cradle,Agent,0:00:47,NTSC-J
+235,4/26/20,Surface 2,Agent,0:00:57,NTSC-J
+236,4/26/20,Surface 2,Agent,0:00:56,NTSC-J
+237,4/26/20,Surface 1,Agent,0:01:12,NTSC-J
+238,4/26/20,Cradle,Secret Agent,0:01:08,NTSC-J
+239,4/26/20,Cradle,Secret Agent,0:01:05,NTSC
+240,4/26/20,Cradle,Secret Agent,0:00:56,NTSC-J
+241,4/26/20,Cradle,00 Agent,0:01:07,NTSC-J
+242,4/26/20,Cradle,00 Agent,0:00:54,NTSC-J
