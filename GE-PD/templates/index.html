@@ -1,10 +1,22 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Home Page</title>
-  </head>
-  <body>
-    <a href="{{ url_for('GEPD.ge_calendar') }}">GoldenEye Times Page</a>
-  </body>
-</html>
+{% extends "base.html" %}
+
+{% block title %}About Me{% endblock %}
+
+{% block content %}
+  <div class="about-me">
+    <h1>About Me</h1>
+
+    <p>Prior to October 20th, 2019, all my runs were played and recorded using an
+    S-video to HDMI converter on an HDTV, captured by an Elgato HD60.</p>
+
+    <p>Since then, my runs are played on a CRT, and captured using a GV-USB2.</p>
+
+    <p>Huge shout-outs to josh116pep for getting a CRT for me!</p>
+
+    <p>My current project is to fill in my times pages for both GE and PD with
+    video proof, no matter how bad the times may be.</p>
+
+    <p>Dual Blazer (420th time rank in both games): 3/24/20 - 3/26/20, 3/26/20 - 3/28/20</p>
+  </div>
+  <!-- Here, put my total times for both games -->
+{% endblock %}

@@ -1,10 +1,9 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Goldeneye 007 PRs</title>
-  </head>
-  <body>
+{% extends "base.html" %}
+
+{% block title %}GoldenEye 007 PRs{% endblock %}
+
+{% block content %}
+  <div class="ge-times">
     <form method='post'>
       <label for="date">Date
         <input type="date" name="date" />
@@ -163,5 +162,5 @@
           }
         }
     </script>
-  </body>
-</html>
+  </div>
+{% endblock %}
