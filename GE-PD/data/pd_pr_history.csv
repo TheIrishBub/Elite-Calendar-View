@@ -1,0 +1,235 @@
+﻿id,date_achieved,stage,difficulty,stage_time,system
+0,1/1/0001,Defection,Agent,0:20:00,
+0,1/1/0001,Defection,Special Agent,0:20:00,
+0,1/1/0001,Defection,Perfect Agent,0:20:00,
+0,1/1/0001,Investigation,Agent,0:20:00,
+0,1/1/0001,Investigation,Special Agent,0:20:00,
+0,1/1/0001,Investigation,Perfect Agent,0:20:00,
+0,1/1/0001,Extraction,Agent,0:20:00,
+0,1/1/0001,Extraction,Special Agent,0:20:00,
+0,1/1/0001,Extraction,Perfect Agent,0:20:00,
+0,1/1/0001,Villa,Agent,0:20:00,
+0,1/1/0001,Villa,Special Agent,0:20:00,
+0,1/1/0001,Villa,Perfect Agent,0:20:00,
+0,1/1/0001,Chicago,Agent,0:20:00,
+0,1/1/0001,Chicago,Special Agent,0:20:00,
+0,1/1/0001,Chicago,Perfect Agent,0:20:00,
+0,1/1/0001,G5,Agent,0:20:00,
+0,1/1/0001,G5,Special Agent,0:20:00,
+0,1/1/0001,G5,Perfect Agent,0:20:00,
+0,1/1/0001,Infiltration,Agent,0:20:00,
+0,1/1/0001,Infiltration,Special Agent,0:20:00,
+0,1/1/0001,Infiltration,Perfect Agent,0:20:00,
+0,1/1/0001,Rescue,Agent,0:20:00,
+0,1/1/0001,Rescue,Special Agent,0:20:00,
+0,1/1/0001,Rescue,Perfect Agent,0:20:00,
+0,1/1/0001,Escape,Agent,0:20:00,
+0,1/1/0001,Escape,Special Agent,0:20:00,
+0,1/1/0001,Escape,Perfect Agent,0:20:00,
+0,1/1/0001,Air Base,Agent,0:20:00,
+0,1/1/0001,Air Base,Special Agent,0:20:00,
+0,1/1/0001,Air Base,Perfect Agent,0:20:00,
+0,1/1/0001,Air Force One,Agent,0:20:00,
+0,1/1/0001,Air Force One,Special Agent,0:20:00,
+0,1/1/0001,Air Force One,Perfect Agent,0:20:00,
+0,1/1/0001,Crash Site,Agent,0:20:00,
+0,1/1/0001,Crash Site,Special Agent,0:20:00,
+0,1/1/0001,Crash Site,Perfect Agent,0:20:00,
+0,1/1/0001,Pelagic II,Agent,0:20:00,
+0,1/1/0001,Pelagic II,Special Agent,0:20:00,
+0,1/1/0001,Pelagic II,Perfect Agent,0:20:00,
+0,1/1/0001,Deep Sea,Agent,0:20:00,
+0,1/1/0001,Deep Sea,Special Agent,0:20:00,
+0,1/1/0001,Deep Sea,Perfect Agent,0:20:00,
+0,1/1/0001,CI,Agent,0:20:00,
+0,1/1/0001,CI,Special Agent,0:20:00,
+0,1/1/0001,CI,Perfect Agent,0:20:00,
+0,1/1/0001,Attack Ship,Agent,0:20:00,
+0,1/1/0001,Attack Ship,Special Agent,0:20:00,
+0,1/1/0001,Attack Ship,Perfect Agent,0:20:00,
+0,1/1/0001,Skedar Ruins,Agent,0:20:00,
+0,1/1/0001,Skedar Ruins,Special Agent,0:20:00,
+0,1/1/0001,Skedar Ruins,Perfect Agent,0:20:00,
+0,1/1/0001,MBR,Agent,0:20:00,
+0,1/1/0001,MBR,Special Agent,0:20:00,
+0,1/1/0001,MBR,Perfect Agent,0:20:00,
+0,1/1/0001,Maian SOS,Agent,0:20:00,
+0,1/1/0001,Maian SOS,Special Agent,0:20:00,
+0,1/1/0001,Maian SOS,Perfect Agent,0:20:00,
+0,1/1/0001,WAR!,Agent,0:20:00,
+0,1/1/0001,WAR!,Special Agent,0:20:00,
+0,1/1/0001,WAR!,Perfect Agent,0:20:00,
+0,1/1/0001,Duel,Agent,0:20:00,
+0,1/1/0001,Duel,Special Agent,0:20:00,
+0,1/1/0001,Duel,Perfect Agent,0:20:00,
+1,9/28/19,Defection,Agent,0:13:49,n
+2,9/28/19,Investigation,Agent,0:17:36,n
+3,9/28/19,Extraction,Agent,0:12:33,n
+4,9/28/19,Villa,Agent,0:10:29,n
+5,9/29/19,Chicago,Agent,0:03:23,n
+6,9/30/19,G5,Agent,0:15:32,n
+7,10/1/19,Infiltration,Agent,0:07:51,n
+8,10/1/19,Rescue,Agent,0:14:18,n
+9,10/1/19,Escape,Agent,0:06:24,n
+10,10/1/19,Air Base,Agent,0:06:13,n
+11,10/2/19,Air Force One,Agent,0:06:57,n
+12,10/2/19,Crash Site,Agent,0:04:31,n
+13,10/2/19,Pelagic II,Agent,0:40:05,n
+14,10/2/19,Deep Sea,Agent,0:24:09,n
+15,10/3/19,CI,Agent,0:04:45,n
+16,10/3/19,Attack Ship,Agent,0:12:46,n
+17,10/4/19,Defection,Agent,0:06:30,n
+18,10/4/19,Defection,Agent,0:02:25,n
+19,10/5/19,Pelagic II,Agent,0:17:29,n
+20,10/5/19,Deep Sea,Agent,0:13:01,n
+21,10/6/19,Skedar Ruins,Agent,0:11:19,n
+22,10/7/19,Defection,Special Agent,0:15:32,n
+23,10/7/19,Investigation,Agent,0:03:35,n
+24,10/8/19,Investigation,Special Agent,0:11:18,n
+25,10/9/19,Investigation,Special Agent,0:06:07,n
+26,10/10/19,Investigation,Special Agent,0:05:30,n
+27,10/11/19,Extraction,Agent,0:06:44,n
+28,10/12/19,Villa,Agent,0:06:49,n
+29,10/13/19,Pelagic II,Agent,0:11:44,n
+30,10/13/19,Pelagic II,Agent,0:06:27,n
+31,10/14/19,Pelagic II,Agent,0:03:24,n
+32,10/14/19,Pelagic II,Agent,0:02:12,n
+33,10/15/19,Pelagic II,Agent,0:01:54,n
+34,10/16/19,Deep Sea,Agent,0:12:32,n
+35,10/16/19,Deep Sea,Agent,0:06:49,n
+36,10/17/19,Pelagic II,Agent,0:01:46,n
+37,10/17/19,Deep Sea,Agent,0:06:16,n
+38,10/18/19,Extraction,Special Agent,0:08:28,n
+39,10/18/19,Extraction,Agent,0:04:33,n
+40,10/19/19,Extraction,Agent,0:02:23,n
+41,10/20/19,Villa,Special Agent,0:09:39,n
+42,10/20/19,Chicago,Special Agent,0:12:03,n
+43,10/21/19,Villa,Agent,0:04:47,n
+44,10/21/19,Villa,Agent,0:03:06,n
+45,10/22/19,Pelagic II,Agent,0:01:45,n
+46,10/23/19,MBR,Agent,0:04:39,n
+47,10/24/19,G5,Agent,0:12:33,n
+48,10/24/19,G5,Agent,0:03:34,n
+49,10/24/19,G5,Agent,0:02:07,n
+50,10/24/19,G5,Special Agent,0:08:55,n
+51,10/25/19,Infiltration,Special Agent,0:13:46,n
+52,10/25/19,Defection,Special Agent,0:09:31,n
+53,10/26/19,Defection,Special Agent,0:03:23,n
+54,10/27/19,Rescue,Agent,0:11:25,n
+55,10/27/19,Rescue,Agent,0:03:31,n
+56,10/28/19,Defection,Agent,0:01:57,n
+57,10/28/19,Defection,Agent,0:01:15,n
+58,10/28/19,Defection,Agent,0:00:56,n
+59,10/28/19,Defection,Special Agent,0:01:42,n
+60,10/28/19,Defection,Special Agent,0:01:30,n
+61,11/1/19,Duel,Agent,0:00:05,n
+62,11/1/19,Duel,Agent,0:00:04,n
+63,11/3/19,Investigation,Agent,0:02:24,n
+64,11/3/19,Investigation,Special Agent,0:05:23,n
+65,11/3/19,Investigation,Special Agent,0:05:15,n
+66,11/3/19,Investigation,Special Agent,0:04:01,n
+67,11/4/19,Extraction,Agent,0:02:04,n
+68,11/4/19,Extraction,Agent,0:01:36,n
+69,11/4/19,Extraction,Special Agent,0:03:46,n
+70,11/4/19,Villa,Special Agent,0:04:50,n
+71,11/4/19,Chicago,Agent,0:02:32,n
+72,11/4/19,Chicago,Agent,0:02:30,n
+73,11/4/19,Chicago,Agent,0:01:57,n
+74,11/4/19,Chicago,Special Agent,0:01:56,n
+75,11/5/19,G5,Special Agent,0:02:49,n
+76,11/5/19,Infiltration,Agent,0:05:17,n
+77,11/5/19,Infiltration,Agent,0:02:28,n
+78,11/5/19,G5,Special Agent,0:06:56,n
+79,11/5/19,Escape,Agent,0:04:15,n
+80,11/5/19,Escape,Agent,0:04:05,n
+81,11/5/19,Escape,Agent,0:03:37,n
+82,11/5/19,Defection,Agent,0:00:53,n
+83,11/5/19,Defection,Agent,0:00:47,n
+84,11/5/19,Defection,Agent,0:00:43,n
+85,11/6/19,Air Base,Agent,0:03:03,n
+86,11/6/19,Air Force One,Agent,0:03:15,n
+87,11/6/19,Crash Site,Agent,0:03:25,n
+88,11/7/19,CI,Agent,0:02:54,n
+89,11/7/19,Attack Ship,Agent,0:12:11,n
+90,11/7/19,Attack Ship,Agent,0:04:25,n
+91,11/7/19,Skedar Ruins,Agent,0:06:41,n
+92,11/8/19,MBR,Agent,0:03:08,n
+93,11/9/19,Pelagic II,Special Agent,0:07:45,n
+94,11/10/19,Duel,Special Agent,0:00:24,n
+95,11/10/19,Duel,Perfect Agent,0:00:33,n
+96,11/10/19,Duel,Special Agent,0:00:13,n
+97,11/10/19,Duel,Special Agent,0:00:11,n
+98,11/10/19,Duel,Perfect Agent,0:00:30,n
+99,11/10/19,Duel,Perfect Agent,0:00:26,n
+100,11/10/19,Duel,Perfect Agent,0:00:22,n
+101,11/10/19,Duel,Agent,0:00:03,n
+102,11/16/19,Rescue,Special Agent,0:05:43,n
+103,12/22/19,Escape,Special Agent,0:08:07,n
+104,12/22/19,Air Base,Special Agent,0:04:08,n
+105,1/10/20,Investigation,Agent,0:02:13,j
+106,1/10/20,Villa,Agent,0:02:21,j
+107,1/10/20,Chicago,Agent,0:01:39,j
+108,1/10/20,Air Base,Agent,0:03:02,j
+109,1/11/20,Skedar Ruins,Agent,0:06:32,j
+110,1/11/20,Investigation,Agent,0:01:46,j
+111,1/11/20,Villa,Agent,0:01:55,j
+112,1/11/20,Chicago,Agent,0:01:37,j
+113,1/11/20,Air Base,Agent,0:02:38,j
+114,1/11/20,Skedar Ruins,Agent,0:05:05,j
+115,1/21/20,Chicago,Agent,0:00:30,j
+116,1/21/20,Chicago,Agent,0:00:27,j
+117,1/21/20,Defection,Perfect Agent,0:08:36,j
+118,1/21/20,Chicago,Special Agent,0:01:27,j
+119,1/28/20,Investigation,Agent,0:01:43,j
+120,1/28/20,Investigation,Agent,0:01:40,j
+121,1/28/20,Investigation,Agent,0:01:39,j
+122,1/29/20,Investigation,Agent,0:01:38,j
+123,1/29/20,Investigation,Agent,0:01:38,n
+124,1/29/20,Investigation,Agent,0:01:37,j
+125,1/29/20,Investigation,Agent,0:01:33,j
+126,1/31/20,Defection,Special Agent,0:01:00,j
+127,1/31/20,Investigation,Agent,0:01:32,j
+128,1/31/20,Investigation,Agent,0:01:30,j
+129,2/8/20,Air Force One,Special Agent,0:03:56,j
+130,2/8/20,Crash Site,Special Agent,0:04:57,j
+131,2/8/20,Deep Sea,Special Agent,0:08:19,j
+132,2/8/20,CI,Special Agent,0:04:53,j
+133,2/9/20,Attack Ship,Special Agent,0:08:09,j
+134,2/11/20,Infiltration,Special Agent,0:06:23,j
+135,2/12/20,Escape,Special Agent,0:06:58,j
+136,2/13/20,Skedar Ruins,Agent,0:03:08,j
+137,2/13/20,Skedar Ruins,Agent,0:02:16,j
+138,2/14/20,Skedar Ruins,Special Agent,0:04:14,j
+139,2/16/20,Investigation,Perfect Agent,0:09:51,j
+140,2/16/20,Escape,Agent,0:03:29,j
+141,2/17/20,Defection,Agent,0:00:43,j
+142,2/17/20,Defection,Agent,0:00:32,j
+143,2/18/20,Extraction,Perfect Agent,0:07:42,j
+144,2/19/20,Villa,Perfect Agent,0:08:50,j
+145,2/19/20,Defection,Special Agent,0:00:54,j
+146,2/19/20,Defection,Special Agent,0:00:51,j
+147,2/19/20,Defection,Special Agent,0:00:50,j
+148,2/21/20,Chicago,Agent,0:00:24,j
+149,2/21/20,Chicago,Special Agent,0:00:49,j
+150,2/21/20,Chicago,Special Agent,0:00:45,j
+151,2/21/20,Chicago,Special Agent,0:00:42,j
+152,2/21/20,Chicago,Agent,0:00:22,j
+153,2/21/20,Chicago,Perfect Agent,0:00:51,j
+154,2/29/20,G5,Perfect Agent,0:04:28,j
+155,3/19/20,Pelagic II,Special Agent,0:04:56,j
+156,3/19/20,Pelagic II,Agent,0:01:24,j
+157,3/19/20,Chicago,Agent,0:00:21,j
+158,3/19/20,Chicago,Agent,0:00:20,j
+159,3/19/20,Chicago,Agent,0:00:19,j
+160,3/20/20,Pelagic II,Agent,0:01:19,j
+161,3/20/20,G5,Agent,0:01:39,j
+162,3/21/20,Infiltration,Perfect Agent,0:09:24,j
+163,3/22/20,Maian SOS,Agent,0:03:06,j
+164,3/24/20,Crash Site,Agent,0:01:46,j
+165,3/24/20,Crash Site,Special Agent,0:02:10,j
+166,3/24/20,Deep Sea,Agent,0:04:56,j
+167,4/15/20,Villa,Special Agent,0:02:50,j
+168,4/15/20,Villa,Agent,0:01:49,j
+169,4/15/20,Villa,Agent,0:01:37,j
+170,4/20/20,Investigation,Agent,0:01:27,j
+171,4/20/20,Investigation,Agent,0:01:26,j

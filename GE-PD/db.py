@@ -49,6 +49,8 @@ def init_db():
         with con.cursor() as cur:
             # Insert data from CSVs into database
             cur.execute("""DROP TABLE IF EXISTS ge_pr_history""")
+            cur.execute("""DROP TABLE IF EXISTS pd_pr_history""")
+            # Create GoldenEye table
             cur.execute("""CREATE TABLE ge_pr_history(
                 id bigint,
                 date_achieved date,
@@ -57,12 +59,32 @@ def init_db():
                 stage_time TIME,
                 system text
             );""")
-            with open('./GE-PD/ge_pr_history.csv', 'r') as f:
+            # Add data from GoldenEye csv file
+            with open('./GE-PD/data/ge_pr_history.csv', 'r') as f:
                 reader = csv.reader(f)
                 next(reader)
                 for row in reader:
                     cur.execute(
                         "INSERT INTO ge_pr_history VALUES (%s, %s, %s, %s, %s, %s)",
+                        row
+                    )
+                con.commit()
+            # Create Perfect Dark table
+            cur.execute("""CREATE TABLE pd_pr_history(
+                id bigint,
+                date_achieved date,
+                stage text NOT NULL,
+                difficulty text NOT NULL,
+                stage_time TIME,
+                system text
+            );""")
+            # Add data from Perfect Dark csv file
+            with open('./GE-PD/data/pd_pr_history.csv', 'r') as f:
+                reader = csv.reader(f)
+                next(reader)
+                for row in reader:
+                    cur.execute(
+                        "INSERT INTO pd_pr_history VALUES (%s, %s, %s, %s, %s, %s)",
                         row
                     )
                 con.commit()
