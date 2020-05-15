@@ -10,7 +10,7 @@
       </label>
       <input type="submit" value="Submit" />
     </form>
-    <h2>Showing times page for {{ dateOne }}:</h2>
+    <h2>Showing Perfect Dark times page for {{ dateOne }}:</h2>
     <table border=1>
       <tr>
         <th>Stage</th>
@@ -161,7 +161,7 @@
     <script>
         let x = document.getElementsByTagName("td")
         console.log(x)
-        for (let cell=0; cell < 80; cell++) {
+        for (let cell=0; cell < 84; cell++) {
           if (x[cell].innerText === '20:00') {
             x[cell].style.backgroundColor = "grey";
             x[cell].innerText = 'N/A'

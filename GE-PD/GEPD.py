@@ -91,11 +91,17 @@ def pd_calendar():
                 times = time_test[0]
                 for n in range(1,63):
                     times += time_test[n]
-                print(times)
+                # The following I can use for displaying a single time on its own page
+                #
+                #cur.execute("""
+                #   	SELECT DISTINCT ON (stage, difficulty) *
+                #   	FROM pd_pr_history WHERE date_achieved <= '5/15/2020'
+                #   	ORDER BY stage, difficulty, stage_time, date_achieved ASC
+                #    """)
+                #info_test = cur.fetchall()
+                #print(info_test[0]['stage_time'].strftime("%-M:%S"))
 
-    # I think I should make the following a separate module/function
 
     calc = time_calc.pd_time_calculation(times)
     print(calc)
-    # Maybe I could do calc=calc ?
     return render_template('pdTimes.html', times=times, calc=calc, dateOne=dateOne)
