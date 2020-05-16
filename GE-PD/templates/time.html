@@ -9,7 +9,7 @@
 <p>System: {{ info_test[0]['system'] }}</p>
 <p style="white-space: pre-wrap;">Comments:<br>{{ info_test[0]['comments'] }}</p>
 {% if info_test[0]['video_id'] != '' %}
-<iframe src="https://www.youtube.com/embed/{{ info_test[0]['video_id'] }}" width="640" height="360"></iframe>
+<iframe src="https://www.youtube.com/embed/{{ info_test[0]['video_id'] }}" width="640" height="360" allowfullscreen></iframe>
 {% endif %}
 {% if info_test[0]['video_id'] == '' %}
 <p>
