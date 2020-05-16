@@ -16,43 +16,37 @@ def ge_calendar():
         with con.cursor() as cur:
             # This should display my times as of the current day.
             cur.execute("""
-               SELECT stage_time FROM (
                	SELECT DISTINCT ON (stage, difficulty) id, date_achieved, stage, difficulty, stage_time
                	FROM ge_pr_history
                	ORDER BY stage, difficulty, stage_time, date_achieved ASC
-               ) AS ge_prs
                """)
             time_test = cur.fetchall()
-            times = time_test[0]
-            for n in range(1,60):
-                times += time_test[n]
+            times = []
+            time_id = []
+            for n in range(0,60):
+                times.append(time_test[n]['stage_time'])
+                time_id.append(time_test[n]['id'])
     if request.method == 'POST':
         dateOne = request.form['date']
         # If the date from the form is empty, set dateOne to today's date
         if request.form['date'] == '':
             dateOne = date.today()
-        print(dateOne)
-
         with db.get_db() as con:
             with con.cursor() as cur:
                 cur.execute("""
-                   SELECT stage_time FROM (
                    	SELECT DISTINCT ON (stage, difficulty) id, date_achieved, stage, difficulty, stage_time
                    	FROM ge_pr_history WHERE date_achieved <= %s
                    	ORDER BY stage, difficulty, stage_time, date_achieved ASC
-                   ) AS ge_prs
                    """, (dateOne,))
                 time_test = cur.fetchall()
-                times = time_test[0]
-                for n in range(1,60):
-                    times += time_test[n]
-
-    # I think I should make the following a separate module/function
+                times = []
+                time_id = []
+                for n in range(0,60):
+                    times.append(time_test[n]['stage_time'])
+                    time_id.append(time_test[n]['id'])
 
     calc = time_calc.ge_time_calculation(times)
-    print(calc)
-    # Maybe I could do calc=calc ?
-    return render_template('geTimes.html', times=times, calc=calc, dateOne=dateOne)
+    return render_template('geTimes.html', times=times, calc=calc, dateOne=dateOne, time_id=time_id)
 
 @bp.route('/pdTimes/', methods=('GET', 'POST'))
 def pd_calendar():
@@ -61,47 +55,65 @@ def pd_calendar():
         with con.cursor() as cur:
             # This should display my times as of the current day.
             cur.execute("""
-               SELECT stage_time FROM (
                	SELECT DISTINCT ON (stage, difficulty) id, date_achieved, stage, difficulty, stage_time
                	FROM pd_pr_history
                	ORDER BY stage, difficulty, stage_time, date_achieved ASC
-               ) AS pd_prs
                """)
             time_test = cur.fetchall()
-            times = time_test[0]
-            for n in range(1,63):
-                times += time_test[n]
+            times = []
+            time_id = []
+            for n in range(0,63):
+                times.append(time_test[n]['stage_time'])
+                time_id.append(time_test[n]['id'])
     if request.method == 'POST':
         dateOne = request.form['date']
         # If the date from the form is empty, set dateOne to today's date
         if request.form['date'] == '':
             dateOne = date.today()
-        print(dateOne)
 
         with db.get_db() as con:
             with con.cursor() as cur:
                 cur.execute("""
-                   SELECT stage_time FROM (
                    	SELECT DISTINCT ON (stage, difficulty) id, date_achieved, stage, difficulty, stage_time
                    	FROM pd_pr_history WHERE date_achieved <= %s
                    	ORDER BY stage, difficulty, stage_time, date_achieved ASC
-                   ) AS pd_prs
                    """, (dateOne,))
                 time_test = cur.fetchall()
-                times = time_test[0]
-                for n in range(1,63):
-                    times += time_test[n]
-                # The following I can use for displaying a single time on its own page
-                #
-                #cur.execute("""
-                #   	SELECT DISTINCT ON (stage, difficulty) *
-                #   	FROM pd_pr_history WHERE date_achieved <= '5/15/2020'
-                #   	ORDER BY stage, difficulty, stage_time, date_achieved ASC
-                #    """)
-                #info_test = cur.fetchall()
-                #print(info_test[0]['stage_time'].strftime("%-M:%S"))
-
+                times = []
+                time_id = []
+                for n in range(0,63):
+                    times.append(time_test[n]['stage_time'])
+                    time_id.append(time_test[n]['id'])
 
     calc = time_calc.pd_time_calculation(times)
-    print(calc)
     return render_template('pdTimes.html', times=times, calc=calc, dateOne=dateOne)
+
+@bp.route('/geTimes/<int:id>/')
+def ge_time(id):
+    with db.get_db() as con:
+        with con.cursor() as cur:
+            # The following I can use for displaying a single time on its own page
+            #
+            cur.execute("""
+              	SELECT DISTINCT ON (stage, difficulty) *
+              	FROM ge_pr_history WHERE id=%s
+              	ORDER BY stage, difficulty, stage_time, date_achieved ASC
+               """, (id,))
+            info_test = cur.fetchall()
+            # I want to display a history of that stage/difficulty
+            cur.execute("""
+                SELECT stage, difficulty
+                FROM ge_pr_history
+                WHERE id=%s
+                """, (id,))
+            stage_info = cur.fetchall()
+            print(stage_info[0]['stage'])
+            cur.execute("""
+                SELECT *
+                FROM ge_pr_history
+                WHERE stage=%s AND difficulty=%s
+                ORDER BY id DESC
+                """, (stage_info[0]['stage'], stage_info[0]['difficulty']))
+            stage_history = cur.fetchall()
+            print(stage_history)
+    return render_template('time.html', info_test=info_test, stage_history=stage_history)

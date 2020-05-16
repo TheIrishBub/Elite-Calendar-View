@@ -57,7 +57,9 @@ def init_db():
                 stage text NOT NULL,
                 difficulty text NOT NULL,
                 stage_time TIME,
-                system text
+                system text,
+                video_id text,
+                comments text
             );""")
             # Add data from GoldenEye csv file
             with open('./GE-PD/data/ge_pr_history.csv', 'r') as f:
@@ -65,7 +67,7 @@ def init_db():
                 next(reader)
                 for row in reader:
                     cur.execute(
-                        "INSERT INTO ge_pr_history VALUES (%s, %s, %s, %s, %s, %s)",
+                        "INSERT INTO ge_pr_history VALUES (%s, %s, %s, %s, %s, %s, %s, %s)",
                         row
                     )
                 con.commit()
@@ -76,7 +78,9 @@ def init_db():
                 stage text NOT NULL,
                 difficulty text NOT NULL,
                 stage_time TIME,
-                system text
+                system text,
+                video_id text,
+                comments text
             );""")
             # Add data from Perfect Dark csv file
             with open('./GE-PD/data/pd_pr_history.csv', 'r') as f:
@@ -84,7 +88,7 @@ def init_db():
                 next(reader)
                 for row in reader:
                     cur.execute(
-                        "INSERT INTO pd_pr_history VALUES (%s, %s, %s, %s, %s, %s)",
+                        "INSERT INTO pd_pr_history VALUES (%s, %s, %s, %s, %s, %s, %s, %s)",
                         row
                     )
                 con.commit()

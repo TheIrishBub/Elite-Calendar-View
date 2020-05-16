@@ -1,0 +1,38 @@
+{% extends "base.html" %}
+
+{% block title %}{{ info_test[0]['stage'] }} {{ info_test[0]['difficulty'] }} in {{ info_test[0]['stage_time'].strftime("%-M:%S") }}{% endblock %}
+
+{% block content %}
+<!-- put a back button here, but I'd need to be able to tell the GE times page from PD's -->
+<h2>{{ info_test[0]['stage'] }} {{ info_test[0]['difficulty'] }} in {{ info_test[0]['stage_time'].strftime("%-M:%S") }}</h2>
+<p>Achieved: {{ info_test[0]['date_achieved'] }}</p>
+<p>System: {{ info_test[0]['system'] }}</p>
+<p style="white-space: pre-wrap;">Comments:<br>{{ info_test[0]['comments'] }}</p>
+{% if info_test[0]['video_id'] != '' %}
+<iframe src="https://www.youtube.com/embed/{{ info_test[0]['video_id'] }}" width="640" height="360"></iframe>
+{% endif %}
+{% if info_test[0]['video_id'] == '' %}
+<p>
+  ======<br>
+  It looks like a video doesn't exist for this time.<br>
+  ======</p>
+{% endif %}
+<h2>PR History</h2>
+<table border="1">
+  <tr>
+    <th>Date Achieved</th>
+    <th>Time</th>
+    <th>System</th>
+  </tr>
+{% for item in stage_history %}
+  <!-- if id is not 0 -->
+  {% if item['id'] != 0 %}
+    <tr>
+      <td>{{ item['date_achieved'] }}</td>
+      <td><a href="{{ url_for('GEPD.ge_time', id=item['id'])}}">{{ item['stage_time'].strftime("%-M:%S") }}</a></td>
+      <td>{{ item['system'] }}</td>
+    </tr>
+  {% endif %}
+{% endfor %}
+</table>
+{% endblock %}
