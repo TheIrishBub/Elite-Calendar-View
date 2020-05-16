@@ -86,7 +86,7 @@ def pd_calendar():
                     time_id.append(time_test[n]['id'])
 
     calc = time_calc.pd_time_calculation(times)
-    return render_template('pdTimes.html', times=times, calc=calc, dateOne=dateOne)
+    return render_template('pdTimes.html', times=times, time_id=time_id, calc=calc, dateOne=dateOne)
 
 @bp.route('/geTimes/<int:id>/')
 def ge_time(id):
@@ -107,7 +107,6 @@ def ge_time(id):
                 WHERE id=%s
                 """, (id,))
             stage_info = cur.fetchall()
-            print(stage_info[0]['stage'])
             cur.execute("""
                 SELECT *
                 FROM ge_pr_history
@@ -115,5 +114,34 @@ def ge_time(id):
                 ORDER BY id DESC
                 """, (stage_info[0]['stage'], stage_info[0]['difficulty']))
             stage_history = cur.fetchall()
-            print(stage_history)
-    return render_template('time.html', info_test=info_test, stage_history=stage_history)
+            game = 'GE'
+    return render_template('time.html', info_test=info_test, stage_history=stage_history, game=game)
+
+@bp.route('/pdTimes/<int:id>/')
+def pd_time(id):
+    with db.get_db() as con:
+        with con.cursor() as cur:
+            # The following I can use for displaying a single time on its own page
+            #
+            cur.execute("""
+              	SELECT DISTINCT ON (stage, difficulty) *
+              	FROM pd_pr_history WHERE id=%s
+              	ORDER BY stage, difficulty, stage_time, date_achieved ASC
+               """, (id,))
+            info_test = cur.fetchall()
+            # I want to display a history of that stage/difficulty
+            cur.execute("""
+                SELECT stage, difficulty
+                FROM pd_pr_history
+                WHERE id=%s
+                """, (id,))
+            stage_info = cur.fetchall()
+            cur.execute("""
+                SELECT *
+                FROM pd_pr_history
+                WHERE stage=%s AND difficulty=%s
+                ORDER BY id DESC
+                """, (stage_info[0]['stage'], stage_info[0]['difficulty']))
+            stage_history = cur.fetchall()
+            game = 'PD'
+    return render_template('time.html', info_test=info_test, stage_history=stage_history, game=game)

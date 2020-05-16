@@ -25,13 +25,39 @@
     <th>System</th>
   </tr>
 {% for item in stage_history %}
-  <!-- if id is not 0 -->
-  {% if item['id'] != 0 %}
-    <tr>
-      <td>{{ item['date_achieved'] }}</td>
-      <td><a href="{{ url_for('GEPD.ge_time', id=item['id'])}}">{{ item['stage_time'].strftime("%-M:%S") }}</a></td>
-      <td>{{ item['system'] }}</td>
-    </tr>
+  {% if game == 'GE' %}
+    {% if item['id'] != 0 %}
+      <tr {% if item['id'] == info_test[0]['id'] %}bgcolor='grey'{% endif %}>
+        <td>{{ item['date_achieved'] }}</td>
+        <td>
+          {% if item['id'] == info_test[0]['id'] %}
+            {{ item['stage_time'].strftime("%-M:%S") }}
+          {% else %}
+            <a href="{{ url_for('GEPD.ge_time', id=item['id'])}}">
+              {{ item['stage_time'].strftime("%-M:%S") }}
+            </a>
+          {% endif %}
+        </td>
+        <td>{{ item['system'] }}</td>
+      </tr>
+    {% endif %}
+  {% endif %}
+  {% if game == 'PD' %}
+    {% if item['id'] != 0 %}
+      <tr {% if item['id'] == info_test[0]['id'] %}bgcolor='grey'{% endif %}>
+        <td>{{ item['date_achieved'] }}</td>
+        <td>
+          {% if item['id'] == info_test[0]['id'] %}
+            {{ item['stage_time'].strftime("%-M:%S") }}
+          {% else %}
+          <a href="{{ url_for('GEPD.pd_time', id=item['id'])}}">
+            {{ item['stage_time'].strftime("%-M:%S") }}
+          </a>
+          {% endif %}
+        </td>
+        <td>{{ item['system'] }}</td>
+      </tr>
+    {% endif %}
   {% endif %}
 {% endfor %}
 </table>

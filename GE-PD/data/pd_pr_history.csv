@@ -1,4 +1,4 @@
-﻿id,date_achieved,stage,difficulty,stage_time,system,video_link,comments
+﻿id,date_achieved,stage,difficulty,stage_time,system,video_id,comments
 0,1/1/0001,Defection,Agent,0:20:00,,,
 0,1/1/0001,Defection,Special Agent,0:20:00,,,
 0,1/1/0001,Defection,Perfect Agent,0:20:00,,,
@@ -62,225 +62,225 @@
 0,1/1/0001,Duel,Agent,0:20:00,,,
 0,1/1/0001,Duel,Special Agent,0:20:00,,,
 0,1/1/0001,Duel,Perfect Agent,0:20:00,,,
-1,9/28/19,Defection,Agent,0:13:49,n,,
-2,9/28/19,Investigation,Agent,0:17:36,n,,
-3,9/28/19,Extraction,Agent,0:12:33,n,,
-4,9/28/19,Villa,Agent,0:10:29,n,,
-5,9/29/19,Chicago,Agent,0:03:23,n,,
-6,9/30/19,G5,Agent,0:15:32,n,,
-7,10/1/19,Infiltration,Agent,0:07:51,n,,
-8,10/1/19,Rescue,Agent,0:14:18,n,,
-9,10/1/19,Escape,Agent,0:06:24,n,,
-10,10/1/19,Air Base,Agent,0:06:13,n,,
-11,10/2/19,Air Force One,Agent,0:06:57,n,,
-12,10/2/19,Crash Site,Agent,0:04:31,n,,
-13,10/2/19,Pelagic II,Agent,0:40:05,n,,
-14,10/2/19,Deep Sea,Agent,0:24:09,n,,
-15,10/3/19,CI,Agent,0:04:45,n,,
-16,10/3/19,Attack Ship,Agent,0:12:46,n,,
-17,10/4/19,Defection,Agent,0:06:30,n,,
-18,10/4/19,Defection,Agent,0:02:25,n,,
-19,10/5/19,Pelagic II,Agent,0:17:29,n,,
-20,10/5/19,Deep Sea,Agent,0:13:01,n,,
-21,10/6/19,Skedar Ruins,Agent,0:11:19,n,,
-22,10/7/19,Defection,Special Agent,0:15:32,n,,
-23,10/7/19,Investigation,Agent,0:03:35,n,,
-24,10/8/19,Investigation,Special Agent,0:11:18,n,,
-25,10/9/19,Investigation,Special Agent,0:06:07,n,,
-26,10/10/19,Investigation,Special Agent,0:05:30,n,,
-27,10/11/19,Extraction,Agent,0:06:44,n,,
-28,10/12/19,Villa,Agent,0:06:49,n,,Whoo! 2 minutes to midnight!
-29,10/13/19,Pelagic II,Agent,0:11:44,n,,
-30,10/13/19,Pelagic II,Agent,0:06:27,n,,
-31,10/14/19,Pelagic II,Agent,0:03:24,n,,
-32,10/14/19,Pelagic II,Agent,0:02:12,n,,
-33,10/15/19,Pelagic II,Agent,0:01:54,n,,
-34,10/16/19,Deep Sea,Agent,0:12:32,n,,
-35,10/16/19,Deep Sea,Agent,0:06:49,n,,
-36,10/17/19,Pelagic II,Agent,0:01:46,n,https://youtu.be/YpyH3dxSXSQ,
-37,10/17/19,Deep Sea,Agent,0:06:16,n,https://youtu.be/9pPqnmM6yN4,
-38,10/18/19,Extraction,Special Agent,0:08:28,n,,
-39,10/18/19,Extraction,Agent,0:04:33,n,https://youtu.be/kGZ0RkdmUfU,
-40,10/19/19,Extraction,Agent,0:02:23,n,,I could definitely get the cheat
-41,10/20/19,Villa,Special Agent,0:09:39,n,,
-42,10/20/19,Chicago,Special Agent,0:12:03,n,,
-43,10/21/19,Villa,Agent,0:04:47,n,,My first run on a CRT. My first run with a video is my 3:06 Agent listed here.
-44,10/21/19,Villa,Agent,0:03:06,n,https://youtu.be/NHJOnlMXcKk,My second run achieved on a CRT. The first was the 4:47 listed below.
-45,10/22/19,Pelagic II,Agent,0:01:45,n,https://youtu.be/emAXudpRzbI,
-46,10/23/19,MBR,Agent,0:04:39,n,,
-47,10/24/19,G5,Agent,0:12:33,n,,
-48,10/24/19,G5,Agent,0:03:34,n,,
-49,10/24/19,G5,Agent,0:02:07,n,https://youtu.be/tNU7zC5_T00,
-50,10/24/19,G5,Special Agent,0:08:55,n,,
-51,10/25/19,Infiltration,Special Agent,0:13:46,n,https://youtu.be/gx6XfObNdMo,
-52,10/25/19,Defection,Special Agent,0:09:31,n,https://youtu.be/Uwl4Pu28PKU,
-53,10/26/19,Defection,Special Agent,0:03:23,n,https://youtu.be/zEqY-7eUQ-8,
-54,10/27/19,Rescue,Agent,0:11:25,n,https://youtu.be/NV6ypYgeQTU,
-55,10/27/19,Rescue,Agent,0:03:31,n,https://youtu.be/c2qmXEK6zmo,
-56,10/28/19,Defection,Agent,0:01:57,n,https://youtu.be/UF15SkBDGBk,
-57,10/28/19,Defection,Agent,0:01:15,n,https://youtu.be/rWOegnfF7p4,
-58,10/28/19,Defection,Agent,0:00:56,n,https://youtu.be/Sb_mLD6jtwk,
-59,10/28/19,Defection,Special Agent,0:01:42,n,https://youtu.be/rwCViJ_WIC0,
-60,10/28/19,Defection,Special Agent,0:01:30,n,https://youtu.be/PnH5_iHAbPM,My first PD cheat!
-61,11/1/19,Duel,Agent,0:00:05,n,,
-62,11/1/19,Duel,Agent,0:00:04,n,https://youtu.be/wS1OT1tl8_w,"After spinning to the right so much, I thought, ""Why not spin to the left?"" This was that run. LUL
+1,9/28/19,Defection,Agent,0:13:49,NTSC,,
+2,9/28/19,Investigation,Agent,0:17:36,NTSC,,
+3,9/28/19,Extraction,Agent,0:12:33,NTSC,,
+4,9/28/19,Villa,Agent,0:10:29,NTSC,,
+5,9/29/19,Chicago,Agent,0:03:23,NTSC,,
+6,9/30/19,G5,Agent,0:15:32,NTSC,,
+7,10/1/19,Infiltration,Agent,0:07:51,NTSC,,
+8,10/1/19,Rescue,Agent,0:14:18,NTSC,,
+9,10/1/19,Escape,Agent,0:06:24,NTSC,,
+10,10/1/19,Air Base,Agent,0:06:13,NTSC,,
+11,10/2/19,Air Force One,Agent,0:06:57,NTSC,,
+12,10/2/19,Crash Site,Agent,0:04:31,NTSC,,
+13,10/2/19,Pelagic II,Agent,0:40:05,NTSC,,
+14,10/2/19,Deep Sea,Agent,0:24:09,NTSC,,
+15,10/3/19,CI,Agent,0:04:45,NTSC,,
+16,10/3/19,Attack Ship,Agent,0:12:46,NTSC,,
+17,10/4/19,Defection,Agent,0:06:30,NTSC,,
+18,10/4/19,Defection,Agent,0:02:25,NTSC,,
+19,10/5/19,Pelagic II,Agent,0:17:29,NTSC,,
+20,10/5/19,Deep Sea,Agent,0:13:01,NTSC,,
+21,10/6/19,Skedar Ruins,Agent,0:11:19,NTSC,,
+22,10/7/19,Defection,Special Agent,0:15:32,NTSC,,
+23,10/7/19,Investigation,Agent,0:03:35,NTSC,,
+24,10/8/19,Investigation,Special Agent,0:11:18,NTSC,,
+25,10/9/19,Investigation,Special Agent,0:06:07,NTSC,,
+26,10/10/19,Investigation,Special Agent,0:05:30,NTSC,,
+27,10/11/19,Extraction,Agent,0:06:44,NTSC,,
+28,10/12/19,Villa,Agent,0:06:49,NTSC,,Whoo! 2 minutes to midnight!
+29,10/13/19,Pelagic II,Agent,0:11:44,NTSC,,
+30,10/13/19,Pelagic II,Agent,0:06:27,NTSC,,
+31,10/14/19,Pelagic II,Agent,0:03:24,NTSC,,
+32,10/14/19,Pelagic II,Agent,0:02:12,NTSC,,
+33,10/15/19,Pelagic II,Agent,0:01:54,NTSC,,
+34,10/16/19,Deep Sea,Agent,0:12:32,NTSC,,
+35,10/16/19,Deep Sea,Agent,0:06:49,NTSC,,
+36,10/17/19,Pelagic II,Agent,0:01:46,NTSC,YpyH3dxSXSQ,
+37,10/17/19,Deep Sea,Agent,0:06:16,NTSC,9pPqnmM6yN4,
+38,10/18/19,Extraction,Special Agent,0:08:28,NTSC,,
+39,10/18/19,Extraction,Agent,0:04:33,NTSC,kGZ0RkdmUfU,
+40,10/19/19,Extraction,Agent,0:02:23,NTSC,,I could definitely get the cheat
+41,10/20/19,Villa,Special Agent,0:09:39,NTSC,,
+42,10/20/19,Chicago,Special Agent,0:12:03,NTSC,,
+43,10/21/19,Villa,Agent,0:04:47,NTSC,,My first run on a CRT. My first run with a video is my 3:06 Agent listed here.
+44,10/21/19,Villa,Agent,0:03:06,NTSC,NHJOnlMXcKk,My second run achieved on a CRT. The first was the 4:47 listed below.
+45,10/22/19,Pelagic II,Agent,0:01:45,NTSC,emAXudpRzbI,
+46,10/23/19,MBR,Agent,0:04:39,NTSC,,
+47,10/24/19,G5,Agent,0:12:33,NTSC,,
+48,10/24/19,G5,Agent,0:03:34,NTSC,,
+49,10/24/19,G5,Agent,0:02:07,NTSC,tNU7zC5_T00,
+50,10/24/19,G5,Special Agent,0:08:55,NTSC,,
+51,10/25/19,Infiltration,Special Agent,0:13:46,NTSC,gx6XfObNdMo,
+52,10/25/19,Defection,Special Agent,0:09:31,NTSC,Uwl4Pu28PKU,
+53,10/26/19,Defection,Special Agent,0:03:23,NTSC,zEqY-7eUQ-8,
+54,10/27/19,Rescue,Agent,0:11:25,NTSC,NV6ypYgeQTU,
+55,10/27/19,Rescue,Agent,0:03:31,NTSC,c2qmXEK6zmo,
+56,10/28/19,Defection,Agent,0:01:57,NTSC,UF15SkBDGBk,
+57,10/28/19,Defection,Agent,0:01:15,NTSC,rWOegnfF7p4,
+58,10/28/19,Defection,Agent,0:00:56,NTSC,Sb_mLD6jtwk,
+59,10/28/19,Defection,Special Agent,0:01:42,NTSC,rwCViJ_WIC0,
+60,10/28/19,Defection,Special Agent,0:01:30,NTSC,PnH5_iHAbPM,My first PD cheat!
+61,11/1/19,Duel,Agent,0:00:05,NTSC,,
+62,11/1/19,Duel,Agent,0:00:04,NTSC,wS1OT1tl8_w,"After spinning to the right so much, I thought, ""Why not spin to the left?"" This was that run. LUL
 
 4.80 time
 
 Also, I got this after maybe 10 or so dupes of 0:05."
-63,11/3/19,Investigation,Agent,0:02:24,n,https://youtu.be/j_XjXCGK-NM,
-64,11/3/19,Investigation,Special Agent,0:05:23,n,https://youtu.be/7MukacxhGLE,
-65,11/3/19,Investigation,Special Agent,0:05:15,n,https://youtu.be/dkI-5OU7aX0,
-66,11/3/19,Investigation,Special Agent,0:04:01,n,https://youtu.be/nGK95BaLmV8,
-67,11/4/19,Extraction,Agent,0:02:04,n,https://youtu.be/5ja75_cMDrw,That cheat will be mine!
-68,11/4/19,Extraction,Agent,0:01:36,n,https://youtu.be/JAsAqzM5AbA,Cheat get!
-69,11/4/19,Extraction,Special Agent,0:03:46,n,https://youtu.be/CcYsRHerYQU,
-70,11/4/19,Villa,Special Agent,0:04:50,n,https://youtu.be/iJf8TICmTTQ,
-71,11/4/19,Chicago,Agent,0:02:32,n,https://youtu.be/U7HGBOYIfsQ,
-72,11/4/19,Chicago,Agent,0:02:30,n,https://youtu.be/v9gQBIACwfo,
-73,11/4/19,Chicago,Agent,0:01:57,n,https://youtu.be/4KLURU8mV28,
-74,11/4/19,Chicago,Special Agent,0:01:56,n,https://youtu.be/pye1QAnsUnc,
-75,11/5/19,G5,Special Agent,0:02:49,n,https://youtu.be/ZuPeWRckMNA,
-76,11/5/19,Infiltration,Agent,0:05:17,n,https://youtu.be/II_MiVNXXnQ,
-77,11/5/19,Infiltration,Agent,0:02:28,n,https://youtu.be/0Q7mXBHMdeg,
-78,11/5/19,G5,Special Agent,0:06:56,n,https://youtu.be/Og85jI7B9jI,"Don't watch this, I had a long pause where I looked up how to do the ending."
-79,11/5/19,Escape,Agent,0:04:15,n,https://youtu.be/Tcv_-dBMDLc,I want it
-80,11/5/19,Escape,Agent,0:04:05,n,https://youtu.be/uydTZ7AmJQE,
-81,11/5/19,Escape,Agent,0:03:37,n,https://youtu.be/X5q4HPLL9Bg,HAHAA! I AM INVINCIBLE!!!
-82,11/5/19,Defection,Agent,0:00:53,n,https://youtu.be/gVzpH9Ih-Kk,
-83,11/5/19,Defection,Agent,0:00:47,n,https://youtu.be/mZR9bX7vcxc,
-84,11/5/19,Defection,Agent,0:00:43,n,https://youtu.be/GSrED7GVklo,
-85,11/6/19,Air Base,Agent,0:03:03,n,https://youtu.be/mGtWPJTjzko,"This will bring me to a sub-2 total Agent time, from 2:00:44 to 1:57:34"
-86,11/6/19,Air Force One,Agent,0:03:15,n,https://youtu.be/SmEIcDX77Ic,
-87,11/6/19,Crash Site,Agent,0:03:25,n,https://youtu.be/NCP8p-WtAXQ,
-88,11/7/19,CI,Agent,0:02:54,n,https://youtu.be/bXOZPS3gF5I,
-89,11/7/19,Attack Ship,Agent,0:12:11,n,https://youtu.be/oJv9M-_vY_k,
-90,11/7/19,Attack Ship,Agent,0:04:25,n,https://youtu.be/WzzIIedu954,
-91,11/7/19,Skedar Ruins,Agent,0:06:41,n,https://youtu.be/LMzjc3aM00g,
-92,11/8/19,MBR,Agent,0:03:08,n,https://youtu.be/gvZF5hGiAZc,
-93,11/9/19,Pelagic II,Special Agent,0:07:45,n,https://youtu.be/ZabGeiyyBx8,I'll be getting that cheat soon.
-94,11/10/19,Duel,Special Agent,0:00:24,n,https://youtu.be/4rbu8hgM79s,"6.11 - A
+63,11/3/19,Investigation,Agent,0:02:24,NTSC,j_XjXCGK-NM,
+64,11/3/19,Investigation,Special Agent,0:05:23,NTSC,7MukacxhGLE,
+65,11/3/19,Investigation,Special Agent,0:05:15,NTSC,dkI-5OU7aX0,
+66,11/3/19,Investigation,Special Agent,0:04:01,NTSC,nGK95BaLmV8,
+67,11/4/19,Extraction,Agent,0:02:04,NTSC,5ja75_cMDrw,That cheat will be mine!
+68,11/4/19,Extraction,Agent,0:01:36,NTSC,JAsAqzM5AbA,Cheat get!
+69,11/4/19,Extraction,Special Agent,0:03:46,NTSC,CcYsRHerYQU,
+70,11/4/19,Villa,Special Agent,0:04:50,NTSC,iJf8TICmTTQ,
+71,11/4/19,Chicago,Agent,0:02:32,NTSC,U7HGBOYIfsQ,
+72,11/4/19,Chicago,Agent,0:02:30,NTSC,v9gQBIACwfo,
+73,11/4/19,Chicago,Agent,0:01:57,NTSC,4KLURU8mV28,
+74,11/4/19,Chicago,Special Agent,0:01:56,NTSC,pye1QAnsUnc,
+75,11/5/19,G5,Special Agent,0:02:49,NTSC,ZuPeWRckMNA,
+76,11/5/19,Infiltration,Agent,0:05:17,NTSC,II_MiVNXXnQ,
+77,11/5/19,Infiltration,Agent,0:02:28,NTSC,0Q7mXBHMdeg,
+78,11/5/19,G5,Special Agent,0:06:56,NTSC,Og85jI7B9jI,"Don't watch this, I had a long pause where I looked up how to do the ending."
+79,11/5/19,Escape,Agent,0:04:15,NTSC,Tcv_-dBMDLc,I want it
+80,11/5/19,Escape,Agent,0:04:05,NTSC,uydTZ7AmJQE,
+81,11/5/19,Escape,Agent,0:03:37,NTSC,X5q4HPLL9Bg,HAHAA! I AM INVINCIBLE!!!
+82,11/5/19,Defection,Agent,0:00:53,NTSC,gVzpH9Ih-Kk,
+83,11/5/19,Defection,Agent,0:00:47,NTSC,mZR9bX7vcxc,
+84,11/5/19,Defection,Agent,0:00:43,NTSC,GSrED7GVklo,
+85,11/6/19,Air Base,Agent,0:03:03,NTSC,mGtWPJTjzko,"This will bring me to a sub-2 total Agent time, from 2:00:44 to 1:57:34"
+86,11/6/19,Air Force One,Agent,0:03:15,NTSC,SmEIcDX77Ic,
+87,11/6/19,Crash Site,Agent,0:03:25,NTSC,NCP8p-WtAXQ,
+88,11/7/19,CI,Agent,0:02:54,NTSC,bXOZPS3gF5I,
+89,11/7/19,Attack Ship,Agent,0:12:11,NTSC,oJv9M-_vY_k,
+90,11/7/19,Attack Ship,Agent,0:04:25,NTSC,WzzIIedu954,
+91,11/7/19,Skedar Ruins,Agent,0:06:41,NTSC,LMzjc3aM00g,
+92,11/8/19,MBR,Agent,0:03:08,NTSC,gvZF5hGiAZc,
+93,11/9/19,Pelagic II,Special Agent,0:07:45,NTSC,ZabGeiyyBx8,I'll be getting that cheat soon.
+94,11/10/19,Duel,Special Agent,0:00:24,NTSC,4rbu8hgM79s,"6.11 - A
 24.46 - SA"
-95,11/10/19,Duel,Perfect Agent,0:00:33,n,https://youtu.be/mBEXoAAY1xY,"4.30 - A
+95,11/10/19,Duel,Perfect Agent,0:00:33,NTSC,mBEXoAAY1xY,"4.30 - A
 10.36 - SA
 33.93 - PA"
-96,11/10/19,Duel,Special Agent,0:00:13,n,https://youtu.be/kLPLwwxptGw,"4.10 - A
+96,11/10/19,Duel,Special Agent,0:00:13,NTSC,kLPLwwxptGw,"4.10 - A
 13.20 - SA"
-97,11/10/19,Duel,Special Agent,0:00:11,n,https://youtu.be/OQXv6THihlk,"4.56 - A
+97,11/10/19,Duel,Special Agent,0:00:11,NTSC,OQXv6THihlk,"4.56 - A
 11.07 (?) - SA"
-98,11/10/19,Duel,Perfect Agent,0:00:30,n,https://youtu.be/PRAZOnuKHcc,"6.30 - A
+98,11/10/19,Duel,Perfect Agent,0:00:30,NTSC,PRAZOnuKHcc,"6.30 - A
 11.86 - SA
 30.48 - PA"
-99,11/10/19,Duel,Perfect Agent,0:00:26,n,https://youtu.be/yy-nZX5r1e8,"4.31 - A
+99,11/10/19,Duel,Perfect Agent,0:00:26,NTSC,yy-nZX5r1e8,"4.31 - A
 15.08 - SA
 26.96 - PA"
-100,11/10/19,Duel,Perfect Agent,0:00:22,n,https://youtu.be/Y0uJji5HKqs,"4.41 - A
+100,11/10/19,Duel,Perfect Agent,0:00:22,NTSC,Y0uJji5HKqs,"4.41 - A
 11.35 - SA
 22.23 - PA"
-101,11/10/19,Duel,Agent,0:00:03,n,https://youtu.be/SwIrSJJ2dWc,"3.98
+101,11/10/19,Duel,Agent,0:00:03,NTSC,SwIrSJJ2dWc,"3.98
 
 My first WR, gotten in roughly 40 minutes of play!
 I am the 445th person to get this time."
-102,11/16/19,Rescue,Special Agent,0:05:43,n,https://youtu.be/gfsRUJg47UA,
-103,12/22/19,Escape,Special Agent,0:08:07,n,https://youtu.be/j4QL2DdWays,
-104,12/22/19,Air Base,Special Agent,0:04:08,n,https://youtu.be/2zIR7QdyN_A,
-105,1/10/20,Investigation,Agent,0:02:13,j,,No video
-106,1/10/20,Villa,Agent,0:02:21,j,,No video
-107,1/10/20,Chicago,Agent,0:01:39,j,,No video
-108,1/10/20,Air Base,Agent,0:03:02,j,,No video
-109,1/11/20,Skedar Ruins,Agent,0:06:32,j,,No video
-110,1/11/20,Investigation,Agent,0:01:46,j,https://youtu.be/Y2aLQ1wpohk,
-111,1/11/20,Villa,Agent,0:01:55,j,https://youtu.be/GB294LIM5QE,
-112,1/11/20,Chicago,Agent,0:01:37,j,https://youtu.be/v6N4Zkf0-w0,
-113,1/11/20,Air Base,Agent,0:02:38,j,https://youtu.be/F40JLY8_SEc,
-114,1/11/20,Skedar Ruins,Agent,0:05:05,j,https://youtu.be/XOnaTyeJMhQ,
-115,1/21/20,Chicago,Agent,0:00:30,j,,No video
-116,1/21/20,Chicago,Agent,0:00:27,j,https://youtu.be/-5307MqtQIU,
-117,1/21/20,Defection,Perfect Agent,0:08:36,j,https://youtu.be/EfaTpw7Lbx0,
-118,1/21/20,Chicago,Special Agent,0:01:27,j,https://youtu.be/iabQvem_Jhw,
-119,1/28/20,Investigation,Agent,0:01:43,j,https://youtu.be/Hf0hzZsbMew,
-120,1/28/20,Investigation,Agent,0:01:40,j,https://youtu.be/Qfe8GQaXTuE,
-121,1/28/20,Investigation,Agent,0:01:39,j,https://youtu.be/YshEZwMspv8,
-122,1/29/20,Investigation,Agent,0:01:38,j,https://youtu.be/IOIf5Rdinu4,LUL wut? WTF was this run? XD
-123,1/29/20,Investigation,Agent,0:01:38,n,https://youtu.be/5uVsXr4RnjY,
-124,1/29/20,Investigation,Agent,0:01:37,j,https://youtu.be/gzYoMgOE0_E,
-125,1/29/20,Investigation,Agent,0:01:33,j,https://youtu.be/woY1iPKUtp4,"Almost worth points! Gotta get that 1:30 for 11 sweet, sweet points!"
-126,1/31/20,Defection,Special Agent,0:01:00,j,https://youtu.be/r1s4v5wDL-E,
-127,1/31/20,Investigation,Agent,0:01:32,j,,
-128,1/31/20,Investigation,Agent,0:01:30,j,https://youtu.be/eI2Zs1AzZe4,"Zoom, zoom!
+102,11/16/19,Rescue,Special Agent,0:05:43,NTSC,gfsRUJg47UA,
+103,12/22/19,Escape,Special Agent,0:08:07,NTSC,j4QL2DdWays,
+104,12/22/19,Air Base,Special Agent,0:04:08,NTSC,2zIR7QdyN_A,
+105,1/10/20,Investigation,Agent,0:02:13,NTSC-J,,No video
+106,1/10/20,Villa,Agent,0:02:21,NTSC-J,,No video
+107,1/10/20,Chicago,Agent,0:01:39,NTSC-J,,No video
+108,1/10/20,Air Base,Agent,0:03:02,NTSC-J,,No video
+109,1/11/20,Skedar Ruins,Agent,0:06:32,NTSC-J,,No video
+110,1/11/20,Investigation,Agent,0:01:46,NTSC-J,Y2aLQ1wpohk,
+111,1/11/20,Villa,Agent,0:01:55,NTSC-J,GB294LIM5QE,
+112,1/11/20,Chicago,Agent,0:01:37,NTSC-J,v6N4Zkf0-w0,
+113,1/11/20,Air Base,Agent,0:02:38,NTSC-J,F40JLY8_SEc,
+114,1/11/20,Skedar Ruins,Agent,0:05:05,NTSC-J,XOnaTyeJMhQ,
+115,1/21/20,Chicago,Agent,0:00:30,NTSC-J,,No video
+116,1/21/20,Chicago,Agent,0:00:27,NTSC-J,-5307MqtQIU,
+117,1/21/20,Defection,Perfect Agent,0:08:36,NTSC-J,EfaTpw7Lbx0,
+118,1/21/20,Chicago,Special Agent,0:01:27,NTSC-J,iabQvem_Jhw,
+119,1/28/20,Investigation,Agent,0:01:43,NTSC-J,Hf0hzZsbMew,
+120,1/28/20,Investigation,Agent,0:01:40,NTSC-J,Qfe8GQaXTuE,
+121,1/28/20,Investigation,Agent,0:01:39,NTSC-J,YshEZwMspv8,
+122,1/29/20,Investigation,Agent,0:01:38,NTSC-J,IOIf5Rdinu4,LUL wut? WTF was this run? XD
+123,1/29/20,Investigation,Agent,0:01:38,NTSC,5uVsXr4RnjY,
+124,1/29/20,Investigation,Agent,0:01:37,NTSC-J,gzYoMgOE0_E,
+125,1/29/20,Investigation,Agent,0:01:33,NTSC-J,woY1iPKUtp4,"Almost worth points! Gotta get that 1:30 for 11 sweet, sweet points!"
+126,1/31/20,Defection,Special Agent,0:01:00,NTSC-J,r1s4v5wDL-E,
+127,1/31/20,Investigation,Agent,0:01:32,NTSC-J,,
+128,1/31/20,Investigation,Agent,0:01:30,NTSC-J,eI2Zs1AzZe4,"Zoom, zoom!
 
 My first points, worth 11 points when achieved!
 
 I might go for 1:29, but I'll likely be done with this level after that.
 
 Also, please disregard the first 20 seconds; I was starting to get frustrated with the bot and guard luck, so I just had to vent."
-129,2/8/20,Air Force One,Special Agent,0:03:56,j,https://youtu.be/qge7marn1wA,
-130,2/8/20,Crash Site,Special Agent,0:04:57,j,https://youtu.be/eWC58iFWdZM,
-131,2/8/20,Deep Sea,Special Agent,0:08:19,j,https://youtu.be/HaM8Nm954FQ,
-132,2/8/20,CI,Special Agent,0:04:53,j,https://youtu.be/xBogTwiYsug,
-133,2/9/20,Attack Ship,Special Agent,0:08:09,j,https://youtu.be/D9Ndx7JKxF0,Somethin' like that…
-134,2/11/20,Infiltration,Special Agent,0:06:23,j,https://youtu.be/aICGqCxyr-E,
-135,2/12/20,Escape,Special Agent,0:06:58,j,,No video
-136,2/13/20,Skedar Ruins,Agent,0:03:08,j,https://youtu.be/ktM3hiieNUk,Such slop
-137,2/13/20,Skedar Ruins,Agent,0:02:16,j,https://youtu.be/UqKU_QateFw,
-138,2/14/20,Skedar Ruins,Special Agent,0:04:14,j,https://youtu.be/a-0Ve3a05ss,
-139,2/16/20,Investigation,Perfect Agent,0:09:51,j,https://youtu.be/-8y0varurqc,
-140,2/16/20,Escape,Agent,0:03:29,j,https://youtu.be/QGPjmd010iE,
-141,2/17/20,Defection,Agent,0:00:43,j,https://youtu.be/hkIzdmxOd88,First run with glitch
-142,2/17/20,Defection,Agent,0:00:32,j,https://youtu.be/YnEOJn2mHAg,
-143,2/18/20,Extraction,Perfect Agent,0:07:42,j,https://youtu.be/IFl5R6hA3Xs,Stupid wait at the end because my health was scaring me…
-144,2/19/20,Villa,Perfect Agent,0:08:50,j,https://youtu.be/-xh7ex9lyQQ,
-145,2/19/20,Defection,Special Agent,0:00:54,j,https://youtu.be/pa0QhDcOw7U,
-146,2/19/20,Defection,Special Agent,0:00:51,j,https://youtu.be/8GGJ_cE3Ems,
-147,2/19/20,Defection,Special Agent,0:00:50,j,https://youtu.be/ufKsz8wj8mk,
-148,2/21/20,Chicago,Agent,0:00:24,j,https://youtu.be/h-28HLp9Eok,
-149,2/21/20,Chicago,Special Agent,0:00:49,j,,
-150,2/21/20,Chicago,Special Agent,0:00:45,j,https://youtu.be/X8Waqx4egxI,
-151,2/21/20,Chicago,Special Agent,0:00:42,j,https://youtu.be/D2r0i7fWRd4,
-152,2/21/20,Chicago,Agent,0:00:22,j,https://youtu.be/hosh4pYV-pc,
-153,2/21/20,Chicago,Perfect Agent,0:00:51,j,https://youtu.be/XcJv_wj-jSs,"I am done with this level for good. Pain in my ass...
+129,2/8/20,Air Force One,Special Agent,0:03:56,NTSC-J,qge7marn1wA,
+130,2/8/20,Crash Site,Special Agent,0:04:57,NTSC-J,eWC58iFWdZM,
+131,2/8/20,Deep Sea,Special Agent,0:08:19,NTSC-J,HaM8Nm954FQ,
+132,2/8/20,CI,Special Agent,0:04:53,NTSC-J,xBogTwiYsug,
+133,2/9/20,Attack Ship,Special Agent,0:08:09,NTSC-J,D9Ndx7JKxF0,Somethin' like that…
+134,2/11/20,Infiltration,Special Agent,0:06:23,NTSC-J,aICGqCxyr-E,
+135,2/12/20,Escape,Special Agent,0:06:58,NTSC-J,,No video
+136,2/13/20,Skedar Ruins,Agent,0:03:08,NTSC-J,ktM3hiieNUk,Such slop
+137,2/13/20,Skedar Ruins,Agent,0:02:16,NTSC-J,UqKU_QateFw,
+138,2/14/20,Skedar Ruins,Special Agent,0:04:14,NTSC-J,a-0Ve3a05ss,
+139,2/16/20,Investigation,Perfect Agent,0:09:51,NTSC-J,-8y0varurqc,
+140,2/16/20,Escape,Agent,0:03:29,NTSC-J,QGPjmd010iE,
+141,2/17/20,Defection,Agent,0:00:43,NTSC-J,hkIzdmxOd88,First run with glitch
+142,2/17/20,Defection,Agent,0:00:32,NTSC-J,YnEOJn2mHAg,
+143,2/18/20,Extraction,Perfect Agent,0:07:42,NTSC-J,IFl5R6hA3Xs,Stupid wait at the end because my health was scaring me…
+144,2/19/20,Villa,Perfect Agent,0:08:50,NTSC-J,-xh7ex9lyQQ,
+145,2/19/20,Defection,Special Agent,0:00:54,NTSC-J,pa0QhDcOw7U,
+146,2/19/20,Defection,Special Agent,0:00:51,NTSC-J,8GGJ_cE3Ems,
+147,2/19/20,Defection,Special Agent,0:00:50,NTSC-J,ufKsz8wj8mk,
+148,2/21/20,Chicago,Agent,0:00:24,NTSC-J,h-28HLp9Eok,
+149,2/21/20,Chicago,Special Agent,0:00:49,NTSC-J,,
+150,2/21/20,Chicago,Special Agent,0:00:45,NTSC-J,X8Waqx4egxI,
+151,2/21/20,Chicago,Special Agent,0:00:42,NTSC-J,D2r0i7fWRd4,
+152,2/21/20,Chicago,Agent,0:00:22,NTSC-J,hosh4pYV-pc,
+153,2/21/20,Chicago,Perfect Agent,0:00:51,NTSC-J,XcJv_wj-jSs,"I am done with this level for good. Pain in my ass...
 
 Played for an hour and a half just to get this run, because I kept dying, missing the tracker throw and mine throw, and messing up the BombSpy deployment.
 
 I even had the game crash on me!
 
 ~51.26"
-154,2/29/20,G5,Perfect Agent,0:04:28,j,https://youtu.be/QEi-MoBTO-8,LUL the camspy!
-155,3/19/20,Pelagic II,Special Agent,0:04:56,j,https://youtu.be/76pIdGaqrk4,Dumb ending
-156,3/19/20,Pelagic II,Agent,0:01:24,j,https://youtu.be/Lo_LMQXm5cg,
-157,3/19/20,Chicago,Agent,0:00:21,j,https://youtu.be/LQcIxNkSutM,20.96 rounded up wtf
-158,3/19/20,Chicago,Agent,0:00:20,j,https://youtu.be/x_izgjV2BBg,
-159,3/19/20,Chicago,Agent,0:00:19,j,https://youtu.be/Gr0kZr9hSxE,
-160,3/20/20,Pelagic II,Agent,0:01:19,j,https://youtu.be/CqTs7Bx2p4s,Funny guard death sounds in the end cinema
-161,3/20/20,G5,Agent,0:01:39,j,https://youtu.be/mIYe9NBLXhk,Cheat get!
-162,3/21/20,Infiltration,Perfect Agent,0:09:24,j,https://youtu.be/_nOKqkuukJM,This is the safest play you will ever see
-163,3/22/20,Maian SOS,Agent,0:03:06,j,https://youtu.be/1q2lxcMjF8M,"Sick boi, sick time"
-164,3/24/20,Crash Site,Agent,0:01:46,j,https://youtu.be/DVTIKDj3inw,
-165,3/24/20,Crash Site,Special Agent,0:02:10,j,https://youtu.be/GjopQnFOMqA,
-166,3/24/20,Deep Sea,Agent,0:04:56,j,https://youtu.be/-EygoYchF_4,Blaze it!
-167,4/15/20,Villa,Special Agent,0:02:50,j,https://youtu.be/E5BrkRtYbr0,
-168,4/15/20,Villa,Agent,0:01:49,j,https://youtu.be/PBGXQHpnkQI,
-169,4/15/20,Villa,Agent,0:01:37,j,https://youtu.be/qyzJg--nRI4,
-170,4/20/20,Investigation,Agent,0:01:27,j,,Blaze it!
-171,4/20/20,Investigation,Agent,0:01:26,j,https://youtu.be/eiYDRmLdkaQ,"Blaze it!
+154,2/29/20,G5,Perfect Agent,0:04:28,NTSC-J,QEi-MoBTO-8,LUL the camspy!
+155,3/19/20,Pelagic II,Special Agent,0:04:56,NTSC-J,76pIdGaqrk4,Dumb ending
+156,3/19/20,Pelagic II,Agent,0:01:24,NTSC-J,Lo_LMQXm5cg,
+157,3/19/20,Chicago,Agent,0:00:21,NTSC-J,LQcIxNkSutM,20.96 rounded up wtf
+158,3/19/20,Chicago,Agent,0:00:20,NTSC-J,x_izgjV2BBg,
+159,3/19/20,Chicago,Agent,0:00:19,NTSC-J,Gr0kZr9hSxE,
+160,3/20/20,Pelagic II,Agent,0:01:19,NTSC-J,CqTs7Bx2p4s,Funny guard death sounds in the end cinema
+161,3/20/20,G5,Agent,0:01:39,NTSC-J,mIYe9NBLXhk,Cheat get!
+162,3/21/20,Infiltration,Perfect Agent,0:09:24,NTSC-J,_nOKqkuukJM,This is the safest play you will ever see
+163,3/22/20,Maian SOS,Agent,0:03:06,NTSC-J,1q2lxcMjF8M,"Sick boi, sick time"
+164,3/24/20,Crash Site,Agent,0:01:46,NTSC-J,DVTIKDj3inw,
+165,3/24/20,Crash Site,Special Agent,0:02:10,NTSC-J,GjopQnFOMqA,
+166,3/24/20,Deep Sea,Agent,0:04:56,NTSC-J,-EygoYchF_4,Blaze it!
+167,4/15/20,Villa,Special Agent,0:02:50,NTSC-J,E5BrkRtYbr0,
+168,4/15/20,Villa,Agent,0:01:49,NTSC-J,PBGXQHpnkQI,
+169,4/15/20,Villa,Agent,0:01:37,NTSC-J,qyzJg--nRI4,
+170,4/20/20,Investigation,Agent,0:01:27,NTSC-J,,Blaze it!
+171,4/20/20,Investigation,Agent,0:01:26,NTSC-J,eiYDRmLdkaQ,"Blaze it!
 
 1:26.60
 Worth 20 points when achieved
 
 Raw version: https://www.youtube.com/watch?v=CJ3DJgXakt0"
-172,5/10/20,Rescue,Perfect Agent,0:15:23,j,https://youtu.be/Mufmv1sWQX4,"Never, for as long as you live, will you ever see anyone play as safely as this."
-173,5/10/20,Attack Ship,Special Agent,0:08:00,j,,"No video (This one might've been done on NTSC, not NTSC-J)"
-174,5/10/20,Escape,Perfect Agent,0:07:17,j,https://youtu.be/NB4EBPhOLL4,
-175,5/10/20,Duel,Agent,0:00:03,j,https://youtu.be/TJU4ZF1cvEQ,"Now I have it on my JAP cart
+172,5/10/20,Rescue,Perfect Agent,0:15:23,NTSC-J,Mufmv1sWQX4,"Never, for as long as you live, will you ever see anyone play as safely as this."
+173,5/10/20,Attack Ship,Special Agent,0:08:00,NTSC-J,,"No video (This one might've been done on NTSC, not NTSC-J)"
+174,5/10/20,Escape,Perfect Agent,0:07:17,NTSC-J,NB4EBPhOLL4,
+175,5/10/20,Duel,Agent,0:00:03,NTSC-J,TJU4ZF1cvEQ,"Now I have it on my JAP cart
 
 3.83
 
 Shoutouts to the MadmanFlechr for letting me know that I don't need to pause buffer the shot to get Duel 3."
-176,5/10/20,Duel,Special Agent,0:00:08,j,https://youtu.be/Ml6QpWjnCoA,
-177,5/10/20,Duel,Perfect Agent,0:00:20,j,https://youtu.be/kjFtHAALM3s,
-178,5/11/20,Duel,Perfect Agent,0:00:15,j,https://youtu.be/KQPQDCnwye0,
-179,5/11/20,Duel,Special Agent,0:00:07,j,https://youtu.be/MZ4B1Y1ZC6c,Took a minute and a half LUL
-180,5/11/20,Duel,Special Agent,0:00:06,j,https://youtu.be/q_2qHySuj7M,"Die, Jon, die!
+176,5/10/20,Duel,Special Agent,0:00:08,NTSC-J,Ml6QpWjnCoA,
+177,5/10/20,Duel,Perfect Agent,0:00:20,NTSC-J,kjFtHAALM3s,
+178,5/11/20,Duel,Perfect Agent,0:00:15,NTSC-J,KQPQDCnwye0,
+179,5/11/20,Duel,Special Agent,0:00:07,NTSC-J,MZ4B1Y1ZC6c,Took a minute and a half LUL
+180,5/11/20,Duel,Special Agent,0:00:06,NTSC-J,q_2qHySuj7M,"Die, Jon, die!
 
 6.98
 
