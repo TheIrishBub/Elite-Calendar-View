@@ -20,7 +20,7 @@
   color: #064579;
 }
 
-.pd-times, .ge-times, .thing1, .thing2 {
+.pd-times, .ge-times, .time-video, .time-info {
   display: flex;
   flex-direction: column;
   float: left;
@@ -32,24 +32,24 @@
   padding-bottom: 10px;
 }
 
-.thing1, .thing2 {
+.time-video, .time-info {
   text-align: left;
 }
 
-.thing1 p, .thing2 p {
+.time-video p, .time-info p {
   margin: 5px;
 }
 
-.thing1 {
+.time-video {
   width: 645px;
 }
 
-.thing2 {
+.time-info {
   width: 400px;
 }
 
 @media screen and (max-width: 1250px) {
-  .thingie {
+  .time {
     display: flex;
     flex-direction: column;
   }

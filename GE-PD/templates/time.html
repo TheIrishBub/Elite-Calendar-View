@@ -3,7 +3,7 @@
 {% block title %}{{ info_test[0]['stage'] }} {{ info_test[0]['difficulty'] }} in {{ info_test[0]['stage_time'].strftime("%-M:%S") }}{% endblock %}
 
 {% block content %}
-<div class="thingie">
+<div class="time">
   <div class="topbar">
     <h2>{{ info_test[0]['stage'] }} {{ info_test[0]['difficulty'] }} in {{ info_test[0]['stage_time'].strftime("%-M:%S") }}</h2>
     {% if game == 'GE' %}
@@ -13,7 +13,7 @@
       <a href="{{ url_for('GEPD.pd_calendar') }}">Back to PD times page</a>
     {% endif %}
   </div>
-  <div class="thing1">
+  <div class="time-video">
     {% if info_test[0]['video_id'] != '' %}
       <iframe src="https://www.youtube.com/embed/{{ info_test[0]['video_id'] }}" width="640" height="360" allowfullscreen></iframe>
       <!-- add a "Watch on YouTube" link as well? -->
@@ -28,7 +28,7 @@
     {% endif %}
   </div>
 
-  <div class="thing2">
+  <div class="time-info">
     <p>Achieved: {{ info_test[0]['date_achieved'] }}</p>
     <p>System: {{ info_test[0]['system'] }}</p>
     {% if info_test[0]['comments'] != '' %}
