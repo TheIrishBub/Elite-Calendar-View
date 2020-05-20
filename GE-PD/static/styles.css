@@ -20,13 +20,45 @@
   color: #064579;
 }
 
-.pd-times {
+.pd-times, .ge-times, .thing1, .thing2 {
   display: flex;
   flex-direction: column;
   float: left;
+  padding: 10px;
   text-align: center;
 }
 
-.pd-times form {
+.pd-times form, .ge-times form {
   padding-bottom: 10px;
+}
+
+.thing1, .thing2 {
+  text-align: left;
+}
+
+.thing1 p, .thing2 p {
+  margin: 5px;
+}
+
+.thing1 {
+  width: 645px;
+}
+
+.thing2 {
+  width: 400px;
+}
+
+@media screen and (max-width: 1250px) {
+  .thingie {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.topbar {
+  align-items: center;
+  border-bottom: solid 1px;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 10px;
 }
