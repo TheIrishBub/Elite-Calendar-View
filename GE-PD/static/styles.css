@@ -20,7 +20,11 @@
   color: #064579;
 }
 
-.pd-times, .ge-times, .time-video, .time-info {
+.pd-times form, .ge-times form {
+  padding-bottom: 10px;
+}
+
+.pd-times, .ge-times, .time-video, .time-info, .about-me, .facts {
   display: flex;
   flex-direction: column;
   float: left;
@@ -28,12 +32,13 @@
   text-align: center;
 }
 
-.pd-times form, .ge-times form {
-  padding-bottom: 10px;
+.time-video, .time-info, .about-me, .facts {
+  text-align: left;
 }
 
-.time-video, .time-info {
-  text-align: left;
+.about-info {
+  display: flex;
+  flex-direction: row;
 }
 
 .time-video p, .time-info p {
