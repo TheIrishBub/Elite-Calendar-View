@@ -7,15 +7,18 @@
 <h2>{{ info_test[0]['stage'] }} {{ info_test[0]['difficulty'] }} in {{ info_test[0]['stage_time'].strftime("%-M:%S") }}</h2>
 <p>Achieved: {{ info_test[0]['date_achieved'] }}</p>
 <p>System: {{ info_test[0]['system'] }}</p>
-<p style="white-space: pre-wrap;">Comments:<br>{{ info_test[0]['comments'] }}</p>
+{% if info_test[0]['comments'] != '' %}
+  <p style="white-space: pre-wrap;">Comments:<br>{{ info_test[0]['comments'] }}</p>
+{% endif %}
 {% if info_test[0]['video_id'] != '' %}
-<iframe src="https://www.youtube.com/embed/{{ info_test[0]['video_id'] }}" width="640" height="360" allowfullscreen></iframe>
+  <iframe src="https://www.youtube.com/embed/{{ info_test[0]['video_id'] }}" width="640" height="360" allowfullscreen></iframe>
 {% endif %}
 {% if info_test[0]['video_id'] == '' %}
-<p>
-  ======<br>
-  It looks like a video doesn't exist for this time.<br>
-  ======</p>
+  <p>
+    ======<br>
+    It looks like a video doesn't exist for this time.<br>
+    ======
+  </p>
 {% endif %}
 <h2>PR History</h2>
 <table border="1">

@@ -4,11 +4,12 @@
     <meta charset="utf-8">
     {% block head %}
     <title>{% block title %}{% endblock %}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}" />
     {% endblock %}
   </head>
   <body>
     <main>
-      <div class="links">
+      <div class="sidebar">
         <!-- I want this to be a sidebar -->
         <p><a href="{{ url_for('GEPD.ge_calendar') }}">GoldenEye Times Page</a></p>
         <p><a href="{{ url_for('GEPD.pd_calendar') }}">Perfect Dark Times Page</a></p>

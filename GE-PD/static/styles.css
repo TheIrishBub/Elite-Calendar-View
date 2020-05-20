@@ -1,0 +1,32 @@
+.sidebar {
+  background: #eee;
+  float: left;
+  left: 10px;
+  overflow-x: hidden;
+  padding: 8px 0;
+  top: 20px;
+  width: 130px;
+}
+
+.sidebar a {
+  color: #2196F3;
+  display: flex;
+  font-size: 20px;
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+}
+
+.sidebar a:hover {
+  color: #064579;
+}
+
+.pd-times {
+  display: flex;
+  flex-direction: column;
+  float: left;
+  text-align: center;
+}
+
+.pd-times form {
+  padding-bottom: 10px;
+}
